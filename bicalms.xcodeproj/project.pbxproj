@@ -14,6 +14,11 @@
 		A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */; };
 		A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7224694B9C00D17199 /* Assets.xcassets */; };
 		A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */; };
+		A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */; };
+		A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */; };
+		A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */; };
+		A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */; };
+		A96B5F8624695BCD00D17199 /* SetPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8524695BCD00D17199 /* SetPlan.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		A96B5F7224694B9C00D17199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96B5F7524694B9C00D17199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96B5F7724694B9C00D17199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseExcercise.storyboard; sourceTree = "<group>"; };
+		A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IndoorExercise.storyboard; sourceTree = "<group>"; };
+		A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OutdoorExcercise.storyboard; sourceTree = "<group>"; };
+		A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressPlan.storyboard; sourceTree = "<group>"; };
+		A96B5F8524695BCD00D17199 /* SetPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetPlan.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				A96B5F6824694B9800D17199 /* SceneDelegate.swift */,
 				A96B5F6A24694B9800D17199 /* ViewController.swift */,
 				A96B5F6C24694B9800D17199 /* Main.storyboard */,
+				A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */,
+				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
+				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
+				A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */,
+				A96B5F8524695BCD00D17199 /* SetPlan.storyboard */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
@@ -128,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96B5F8624695BCD00D17199 /* SetPlan.storyboard in Resources */,
+				A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
+				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
+				A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */,
 				A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */,
 				A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */,
+				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
