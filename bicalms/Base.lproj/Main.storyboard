@@ -15,41 +15,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSH-ha-JUn">
-                                <rect key="frame" x="20" y="151" width="114" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSH-ha-JUn">
+                                <rect key="frame" x="20" y="82" width="114" height="30"/>
                                 <state key="normal" title="Choose Exercise"/>
                                 <connections>
                                     <segue destination="4Ic-He-aLp" kind="presentation" modalPresentationStyle="fullScreen" id="lEu-L9-pXJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzQ-iK-TOM">
-                                <rect key="frame" x="46" y="189" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzQ-iK-TOM">
+                                <rect key="frame" x="46" y="120" width="114" height="30"/>
                                 <state key="normal" title="Indoor Excercise"/>
                                 <connections>
                                     <segue destination="CoE-Vs-XQk" kind="presentation" modalPresentationStyle="fullScreen" id="cF0-4T-HtP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-Yf-eKd">
-                                <rect key="frame" x="46" y="227" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-Yf-eKd">
+                                <rect key="frame" x="46" y="158" width="126" height="30"/>
                                 <state key="normal" title="Outdoor Excercise"/>
                                 <connections>
                                     <segue destination="5zY-Gs-Ors" kind="presentation" modalPresentationStyle="fullScreen" id="MzH-Q7-oX6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41C-Lh-zoe">
-                                <rect key="frame" x="20" y="265" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41C-Lh-zoe">
+                                <rect key="frame" x="20" y="189" width="95" height="30"/>
                                 <state key="normal" title="Progress Plan"/>
                                 <connections>
                                     <segue destination="299-MR-OPM" kind="presentation" modalPresentationStyle="fullScreen" id="lxh-xd-Yex"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIq-Do-NpX">
-                                <rect key="frame" x="20" y="113" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIq-Do-NpX">
+                                <rect key="frame" x="20" y="44" width="53" height="30"/>
                                 <state key="normal" title="SetPlan"/>
                                 <connections>
                                     <segue destination="rn8-do-hyM" kind="presentation" modalPresentationStyle="fullScreen" id="zcE-4H-gf2"/>
@@ -57,6 +52,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kzQ-iK-TOM" firstAttribute="top" secondItem="HSH-ha-JUn" secondAttribute="bottom" constant="8" id="1vY-s6-kKN"/>
+                            <constraint firstItem="kzQ-iK-TOM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="4Ha-45-93n"/>
+                            <constraint firstItem="41C-Lh-zoe" firstAttribute="top" secondItem="qPU-Yf-eKd" secondAttribute="bottom" constant="1" id="6oU-Zp-Hq7"/>
+                            <constraint firstItem="qPU-Yf-eKd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="J3J-Em-YMW"/>
+                            <constraint firstItem="WIq-Do-NpX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qfl-jC-nQh"/>
+                            <constraint firstItem="HSH-ha-JUn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="W2M-uY-fhn"/>
+                            <constraint firstItem="qPU-Yf-eKd" firstAttribute="top" secondItem="kzQ-iK-TOM" secondAttribute="bottom" constant="8" id="XyB-VC-lSQ"/>
+                            <constraint firstItem="HSH-ha-JUn" firstAttribute="top" secondItem="WIq-Do-NpX" secondAttribute="bottom" constant="8" id="Yz2-fs-7Dg"/>
+                            <constraint firstItem="WIq-Do-NpX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dsZ-Q5-8e6"/>
+                            <constraint firstItem="41C-Lh-zoe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gDl-ZM-3MF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
