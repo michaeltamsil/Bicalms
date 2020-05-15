@@ -173,10 +173,10 @@ Mental and Physical</string>
                                                     <segue destination="kjy-en-bPX" kind="show" id="ux9-lx-dA8"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-n1-bnG">
-                                                <rect key="frame" x="174" y="249" width="179" height="171"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-n1-bnG">
+                                                <rect key="frame" x="228" y="242" width="181" height="127"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title=" "/>
+                                                <state key="normal" title=" " backgroundImage="Indoor2.png"/>
                                                 <connections>
                                                     <segue destination="8gt-9H-UTO" kind="show" id="r8Q-VR-PFX"/>
                                                 </connections>
@@ -279,11 +279,12 @@ Mental and Physical</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="j7f-al-fYL"/>
-        <segue reference="QUj-hQ-nuO"/>
+        <segue reference="r8Q-VR-PFX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Cycling.png" width="180" height="123"/>
         <image name="Indoor1.png" width="179" height="123"/>
+        <image name="Indoor2.png" width="287" height="193"/>
         <image name="Indoor3.png" width="179" height="123"/>
         <image name="Indoor4.png" width="179" height="123"/>
         <image name="Jogging.png" width="180" height="123"/>
