@@ -10,13 +10,12 @@
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
-		31379145246B1C4700FDC13E /* Indoor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379144246B1C4700FDC13E /* Indoor2.png */; };
 		3137914A246B286000FDC13E /* Jogging.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379146246B285F00FDC13E /* Jogging.png */; };
 		3137914B246B286000FDC13E /* Cycling.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379147246B285F00FDC13E /* Cycling.png */; };
 		3137914C246B286000FDC13E /* RUNNING.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379148246B285F00FDC13E /* RUNNING.png */; };
 		3137914F246B291000FDC13E /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137914E246B291000FDC13E /* Walking.png */; };
 		31379151246BC0A000FDC13E /* Jepretan Layar 2020-05-13 pukul 12.08.35.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379150246BC0A000FDC13E /* Jepretan Layar 2020-05-13 pukul 12.08.35.png */; };
-		31379153246BF84F00FDC13E /* Indoor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379152246BF84F00FDC13E /* Indoor2.png */; };
+		31827340246E264B0097B145 /* Indoor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3182733F246E264B0097B145 /* Indoor2.png */; };
 		A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6624694B9800D17199 /* AppDelegate.swift */; };
 		A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6824694B9800D17199 /* SceneDelegate.swift */; };
 		A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6A24694B9800D17199 /* ViewController.swift */; };
@@ -35,13 +34,12 @@
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
-		31379144246B1C4700FDC13E /* Indoor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Indoor2.png; path = ../../Indoor2.png; sourceTree = "<group>"; };
 		31379146246B285F00FDC13E /* Jogging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jogging.png; sourceTree = "<group>"; };
 		31379147246B285F00FDC13E /* Cycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cycling.png; sourceTree = "<group>"; };
 		31379148246B285F00FDC13E /* RUNNING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RUNNING.png; sourceTree = "<group>"; };
 		3137914E246B291000FDC13E /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Walking.png; sourceTree = "<group>"; };
 		31379150246BC0A000FDC13E /* Jepretan Layar 2020-05-13 pukul 12.08.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jepretan Layar 2020-05-13 pukul 12.08.35.png"; sourceTree = "<group>"; };
-		31379152246BF84F00FDC13E /* Indoor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Indoor2.png; path = ../../Indoor2.png; sourceTree = "<group>"; };
+		3182733F246E264B0097B145 /* Indoor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor2.png; sourceTree = "<group>"; };
 		A96B5F6324694B9800D17199 /* bicalms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bicalms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96B5F6624694B9800D17199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96B5F6824694B9800D17199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,15 +71,14 @@
 			isa = PBXGroup;
 			children = (
 				3137913F246B1BB300FDC13E /* Indoor1.png */,
-				31379152246BF84F00FDC13E /* Indoor2.png */,
 				3137913D246B1BB300FDC13E /* Indoor3.png */,
 				3137913E246B1BB300FDC13E /* Indoor4.png */,
-				31379144246B1C4700FDC13E /* Indoor2.png */,
 				31379147246B285F00FDC13E /* Cycling.png */,
 				31379146246B285F00FDC13E /* Jogging.png */,
 				31379148246B285F00FDC13E /* RUNNING.png */,
 				3137914E246B291000FDC13E /* Walking.png */,
 				31379150246BC0A000FDC13E /* Jepretan Layar 2020-05-13 pukul 12.08.35.png */,
+				3182733F246E264B0097B145 /* Indoor2.png */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -187,14 +184,13 @@
 				A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
+				31827340246E264B0097B145 /* Indoor2.png in Resources */,
 				A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */,
 				31379151246BC0A000FDC13E /* Jepretan Layar 2020-05-13 pukul 12.08.35.png in Resources */,
 				3137914A246B286000FDC13E /* Jogging.png in Resources */,
-				31379145246B1C4700FDC13E /* Indoor2.png in Resources */,
 				A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */,
 				A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */,
 				3137914F246B291000FDC13E /* Walking.png in Resources */,
-				31379153246BF84F00FDC13E /* Indoor2.png in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* RUNNING.png in Resources */,
 				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
