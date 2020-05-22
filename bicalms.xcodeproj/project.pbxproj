@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0423CB582477CF43009659C2 /* Run Animation.mp4 */; };
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0423CB582477CF43009659C2 /* Run Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Run Animation.mp4"; sourceTree = "<group>"; };
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		3137913B246B1B6600FDC13E /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				0423CB582477CF43009659C2 /* Run Animation.mp4 */,
 				3137913F246B1BB300FDC13E /* Indoor1.png */,
 				3137913D246B1BB300FDC13E /* Indoor3.png */,
 				3137913E246B1BB300FDC13E /* Indoor4.png */,
@@ -195,6 +198,7 @@
 				3137914C246B286000FDC13E /* RUNNING.png in Resources */,
 				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
+				0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
