@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Jepretan Layar 2020-05-13 pukul 12.08.35.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Yz-go-m8E">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Bicalms Kalem Euy.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Yz-go-m8E">
                                 <rect key="frame" x="-84" y="222" width="582" height="406"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -30,6 +30,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Jepretan Layar 2020-05-13 pukul 12.08.35.png" width="582" height="406"/>
+        <image name="Bicalms Kalem Euy.png" width="582" height="406"/>
     </resources>
 </document>

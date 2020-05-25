@@ -190,7 +190,7 @@ Mental and Physical</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="drL-K4-sX8"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="7ku-uC-IG2"/>
                             </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="RUNNING.png" translatesAutoresizingMaskIntoConstraints="NO" id="9MF-Aj-VeL">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Running.png" translatesAutoresizingMaskIntoConstraints="NO" id="9MF-Aj-VeL">
                                 <rect key="frame" x="12" y="937" width="180" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -288,7 +288,7 @@ Mental and Physical</string>
         <image name="Indoor3.png" width="179" height="123"/>
         <image name="Indoor4.png" width="179" height="123"/>
         <image name="Jogging.png" width="180" height="123"/>
-        <image name="RUNNING.png" width="180" height="123"/>
+        <image name="Running.png" width="180" height="123"/>
         <image name="Walking.png" width="180" height="123"/>
     </resources>
 </document>
