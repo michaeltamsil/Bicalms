@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,6 +48,14 @@
                                 <state key="normal" title="SetPlan"/>
                                 <connections>
                                     <segue destination="rn8-do-hyM" kind="presentation" modalPresentationStyle="fullScreen" id="zcE-4H-gf2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsp-8b-keV">
+                                <rect key="frame" x="23" y="227" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="tFo-fH-OpE" kind="show" id="ArV-Dj-J8W"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -112,6 +120,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9m3-vW-mC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="879" y="189"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="Rsc-QF-Fpy">
+            <objects>
+                <viewControllerPlaceholder id="tFo-fH-OpE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yk1-Xz-xxt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MiU-f7-seL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="372"/>
         </scene>
     </scenes>
 </document>

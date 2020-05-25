@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../Documents/Apple Developer Academy/Challenge Mini 2/Animation/Run Animation.mp4">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
