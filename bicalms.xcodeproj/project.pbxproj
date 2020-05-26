@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0423CB582477CF43009659C2 /* Run Animation.mp4 */; };
 		042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */; };
+		04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4CFA247CB15100949104 /* OutdoorExercise.swift */; };
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		0423CB582477CF43009659C2 /* Run Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Run Animation.mp4"; sourceTree = "<group>"; };
 		042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bicalms Icon.png"; sourceTree = "<group>"; };
+		04CB4CFA247CB15100949104 /* OutdoorExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */,
 				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
 				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
+				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
 				A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */,
 				A96B5F8524695BCD00D17199 /* SetPlan.storyboard */,
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */,
+				04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
