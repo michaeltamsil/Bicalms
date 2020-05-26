@@ -10,6 +10,9 @@
 		0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0423CB582477CF43009659C2 /* Run Animation.mp4 */; };
 		042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */; };
 		04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4CFA247CB15100949104 /* OutdoorExercise.swift */; };
+		04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFC247CDD0C00949104 /* On Boarding 3.png */; };
+		04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFD247CDD0C00949104 /* On Boarding 2.png */; };
+		04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFE247CDD0C00949104 /* On Boarding 1.png */; };
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
@@ -39,6 +42,9 @@
 		0423CB582477CF43009659C2 /* Run Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Run Animation.mp4"; sourceTree = "<group>"; };
 		042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bicalms Icon.png"; sourceTree = "<group>"; };
 		04CB4CFA247CB15100949104 /* OutdoorExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
+		04CB4CFC247CDD0C00949104 /* On Boarding 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 3.png"; sourceTree = "<group>"; };
+		04CB4CFD247CDD0C00949104 /* On Boarding 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 2.png"; sourceTree = "<group>"; };
+		04CB4CFE247CDD0C00949104 /* On Boarding 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 1.png"; sourceTree = "<group>"; };
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 		3137913B246B1B6600FDC13E /* Image and Video */ = {
 			isa = PBXGroup;
 			children = (
+				04CB4CFE247CDD0C00949104 /* On Boarding 1.png */,
+				04CB4CFD247CDD0C00949104 /* On Boarding 2.png */,
+				04CB4CFC247CDD0C00949104 /* On Boarding 3.png */,
 				3137913F246B1BB300FDC13E /* Indoor1.png */,
 				3182733F246E264B0097B145 /* Indoor2.png */,
 				3137913D246B1BB300FDC13E /* Indoor3.png */,
@@ -200,6 +209,7 @@
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
+				04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */,
 				A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */,
 				A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */,
 				31379151246BC0A000FDC13E /* Bicalms Kalem Euy.png in Resources */,
@@ -207,8 +217,10 @@
 				A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */,
 				A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */,
 				3137914F246B291000FDC13E /* Walking.png in Resources */,
+				04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* Running.png in Resources */,
+				04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */,
 				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
 				042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */,
