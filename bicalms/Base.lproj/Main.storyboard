@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="46" y="158" width="126" height="30"/>
                                 <state key="normal" title="Outdoor Excercise"/>
                                 <connections>
-                                    <segue destination="5zY-Gs-Ors" kind="presentation" modalPresentationStyle="fullScreen" id="MzH-Q7-oX6"/>
+                                    <segue destination="5zY-Gs-Ors" kind="show" id="P2a-dq-gEa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41C-Lh-zoe">
@@ -105,10 +105,12 @@
             </objects>
             <point key="canvasLocation" x="859" y="100"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--OutdoorExcercise-->
         <scene sceneID="12u-MN-OZt">
             <objects>
-                <viewControllerPlaceholder id="5zY-Gs-Ors" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="OutdoorExcercise" id="5zY-Gs-Ors" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6W6-pa-sM8"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2A-S1-YHf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="880" y="145"/>
