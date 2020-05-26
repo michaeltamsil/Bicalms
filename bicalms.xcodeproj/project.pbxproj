@@ -90,13 +90,11 @@
 		3137913B246B1B6600FDC13E /* Image and Video */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				A974484C247CF947001FFFC7 /* icon */,
-=======
 				04CB4CFE247CDD0C00949104 /* On Boarding 1.png */,
 				04CB4CFD247CDD0C00949104 /* On Boarding 2.png */,
 				04CB4CFC247CDD0C00949104 /* On Boarding 3.png */,
->>>>>>> 6bb8b56ff3df70914b6081bff76e2c56e76b05d4
+
 				3137913F246B1BB300FDC13E /* Indoor1.png */,
 				3182733F246E264B0097B145 /* Indoor2.png */,
 				3137913D246B1BB300FDC13E /* Indoor3.png */,
@@ -229,11 +227,8 @@
 				04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* Running.png in Resources */,
-<<<<<<< HEAD
 				A974484D247CF947001FFFC7 /* icon in Resources */,
-=======
 				04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */,
->>>>>>> 6bb8b56ff3df70914b6081bff76e2c56e76b05d4
 				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
 				042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */,
