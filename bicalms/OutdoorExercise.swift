@@ -8,6 +8,7 @@
 
 import SwiftUI
 import UIKit
+import AVFoundation
 
 struct OutdoorExrecise : View {
     var body: some View {
@@ -42,10 +43,20 @@ struct OutdoorExrecise : View {
                         .foregroundColor(.white)
                 }
                 
-                Circle()
-                    .stroke(lineWidth: 5)
-                    .frame(width: 320, height: 320)
-                    .foregroundColor(Color("Blue4"))
+                ZStack{
+                
+                    LinearGradient(gradient: .init(colors: [(Color("Orange3")), (Color("Orange1"))]), startPoint: .top, endPoint: .bottom)
+                        
+                        .mask(
+                            Circle()
+                                .stroke(lineWidth: 5)
+                                .padding()
+                                .frame(width: 320, height: 320)
+                        )
+                    
+                    OutdoorAnimation().frame(width: 300, height: 300, alignment: .center)
+                        .clipShape(Circle())
+                }
                 
                 HStack{
                     

@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Bicalms Kalem Euy.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Yz-go-m8E">
-                                <rect key="frame" x="-84" y="222" width="582" height="406"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Bicalms Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Yz-go-m8E">
+                                <rect key="frame" x="147" y="407" width="120" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -26,10 +26,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Bicalms Kalem Euy.png" width="582" height="406"/>
+        <image name="Bicalms Icon.png" width="65" height="85"/>
     </resources>
 </document>
