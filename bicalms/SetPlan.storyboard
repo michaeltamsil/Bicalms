@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,28 +22,42 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have a plan yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td8-0C-pV2">
                                 <rect key="frame" x="126.5" y="415" width="160" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set plan to see a progress weekly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c51-lh-IdU">
                                 <rect key="frame" x="78.5" y="457" width="256" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-7I-lHc">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-7I-lHc" customClass="RoundButton" customModule="bicalms" customModuleProvider="target">
                                 <rect key="frame" x="132" y="717" width="149" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Set Plan">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="pVK-qq-l8c" kind="presentation" modalPresentationStyle="fullScreen" id="0AR-E8-91d"/>
+                                    <segue destination="dsP-CE-SPK" kind="show" id="wn9-K4-TNq"/>
                                 </connections>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ip-b1-1GO">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Activity" image="activityDisabled" selectedImage="activityDisabled" id="NNb-uX-iIX"/>
+                                    <tabBarItem title="Progress" image="timerWhite" selectedImage="timerWhite" id="OTw-wX-wJl"/>
+                                </items>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" name="Blue2"/>
                         <constraints>
                             <constraint firstItem="lPf-lo-BF2" firstAttribute="leading" secondItem="tAy-Tf-w8Z" secondAttribute="leading" constant="48" id="2Gb-lo-cTc"/>
                             <constraint firstItem="c51-lh-IdU" firstAttribute="top" secondItem="Td8-0C-pV2" secondAttribute="bottom" constant="21" id="4mH-X7-mY2"/>
@@ -60,81 +75,23 @@
             </objects>
             <point key="canvasLocation" x="1329" y="-280"/>
         </scene>
-        <!--Item 2-->
-        <scene sceneID="f2a-Df-ewK">
+        <!--ProgressPlan-->
+        <scene sceneID="Yuj-aZ-kHe">
             <objects>
-                <viewController id="aYL-X3-iIe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4gc-J4-VPt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="I84-Es-l7I"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="prQ-xe-dW4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M6d-bI-ctJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="ProgressPlan" id="dsP-CE-SPK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZK4-yf-Z8a"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cP6-t2-Ohn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-355" y="507"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="y43-2F-2fd">
-            <objects>
-                <viewController id="LOS-ZM-ktp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="utG-HQ-Oeh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="tLP-nf-nHR"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="sbx-jZ-bjd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kxS-kB-me2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-355" y="-142"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="fBy-i1-zLY">
-            <objects>
-                <tabBarController id="5C4-1q-m16" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Adv-Wt-XBF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="LOS-ZM-ktp" kind="relationship" relationship="viewControllers" id="b2V-Jq-Ba6"/>
-                        <segue destination="aYL-X3-iIe" kind="relationship" relationship="viewControllers" id="h6b-q4-jlM"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a8c-sA-bLA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1273" y="183"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="2nk-M6-Ah7">
-            <objects>
-                <viewController id="pVK-qq-l8c" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4Au-rI-Rid">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDk-ar-7pB">
-                                <rect key="frame" x="144" y="92" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="ra9-Ht-0zb"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GvX-cc-Ljz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1800" y="439"/>
+            <point key="canvasLocation" x="1847" y="-222"/>
         </scene>
     </scenes>
     <resources>
+        <image name="activityDisabled" width="22" height="22"/>
         <image name="noplan" width="336" height="297"/>
+        <image name="timerWhite" width="22.5" height="25"/>
+        <namedColor name="Blue2">
+            <color red="0.019999999552965164" green="0.090000003576278687" blue="0.18400000035762787" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

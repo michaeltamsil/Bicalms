@@ -23,6 +23,9 @@
 		31379151246BC0A000FDC13E /* Bicalms Kalem Euy.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379150246BC0A000FDC13E /* Bicalms Kalem Euy.png */; };
 		31827340246E264B0097B145 /* Indoor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3182733F246E264B0097B145 /* Indoor2.png */; };
 		49BB6086247CEAA000D156EE /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB6085247CEAA000D156EE /* OnBoarding.storyboard */; };
+		A92958DF247E17B400355C9A /* SetPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92958DE247E17B400355C9A /* SetPlan.storyboard */; };
+		A94C7FBC247E2FA3002DBFDF /* ProgressPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */; };
+		A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */; };
 		A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6624694B9800D17199 /* AppDelegate.swift */; };
 		A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6824694B9800D17199 /* SceneDelegate.swift */; };
 		A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6A24694B9800D17199 /* ViewController.swift */; };
@@ -33,9 +36,8 @@
 		A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */; };
 		A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */; };
 		A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */; };
-		A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */; };
-		A96B5F8624695BCD00D17199 /* SetPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8524695BCD00D17199 /* SetPlan.storyboard */; };
 		A974484D247CF947001FFFC7 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = A974484C247CF947001FFFC7 /* icon */; };
+		A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974484F247D2A6D001FFFC7 /* RoundButton.swift */; };
 		A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */; };
 		A9FB2A2324793F2E006CEBDE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,10 @@
 		31379150246BC0A000FDC13E /* Bicalms Kalem Euy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bicalms Kalem Euy.png"; sourceTree = "<group>"; };
 		3182733F246E264B0097B145 /* Indoor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor2.png; sourceTree = "<group>"; };
 		49BB6085247CEAA000D156EE /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		A92958DE247E17B400355C9A /* SetPlan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetPlan.storyboard; sourceTree = "<group>"; };
+		A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProgressPlan.storyboard; sourceTree = "<group>"; };
+		A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Congratulations.storyboard; sourceTree = "<group>"; };
+		A94C7FC3247E33FA002DBFDF /* congratulations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congratulations.png; sourceTree = "<group>"; };
 		A96B5F6324694B9800D17199 /* bicalms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bicalms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96B5F6624694B9800D17199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96B5F6824694B9800D17199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,9 +75,8 @@
 		A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseExcercise.storyboard; sourceTree = "<group>"; };
 		A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IndoorExercise.storyboard; sourceTree = "<group>"; };
 		A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OutdoorExcercise.storyboard; sourceTree = "<group>"; };
-		A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressPlan.storyboard; sourceTree = "<group>"; };
-		A96B5F8524695BCD00D17199 /* SetPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetPlan.storyboard; sourceTree = "<group>"; };
 		A974484C247CF947001FFFC7 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
+		A974484F247D2A6D001FFFC7 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ChooseExcerciseDetail.storyboard; path = bicalms/ChooseExcerciseDetail.storyboard; sourceTree = SOURCE_ROOT; };
 		A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,9 +97,9 @@
 			children = (
 				A974484C247CF947001FFFC7 /* icon */,
 				04CB4CFE247CDD0C00949104 /* On Boarding 1.png */,
+				A94C7FC3247E33FA002DBFDF /* congratulations.png */,
 				04CB4CFD247CDD0C00949104 /* On Boarding 2.png */,
 				04CB4CFC247CDD0C00949104 /* On Boarding 3.png */,
-
 				3137913F246B1BB300FDC13E /* Indoor1.png */,
 				3182733F246E264B0097B145 /* Indoor2.png */,
 				3137913D246B1BB300FDC13E /* Indoor3.png */,
@@ -130,7 +135,9 @@
 		A96B5F6524694B9800D17199 /* bicalms */ = {
 			isa = PBXGroup;
 			children = (
+				A974484E247D2A3B001FFFC7 /* Library */,
 				A96B5F6624694B9800D17199 /* AppDelegate.swift */,
+				A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */,
 				A96B5F6824694B9800D17199 /* SceneDelegate.swift */,
 				A96B5F6A24694B9800D17199 /* ViewController.swift */,
 				A96B5F6C24694B9800D17199 /* Main.storyboard */,
@@ -138,10 +145,10 @@
 				49BB6085247CEAA000D156EE /* OnBoarding.storyboard */,
 				A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */,
 				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
+				A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */,
 				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
 				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
-				A96B5F8324695BB500D17199 /* ProgressPlan.storyboard */,
-				A96B5F8524695BCD00D17199 /* SetPlan.storyboard */,
+				A92958DE247E17B400355C9A /* SetPlan.storyboard */,
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
@@ -149,6 +156,14 @@
 				A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */,
 			);
 			path = bicalms;
+			sourceTree = "<group>";
+		};
+		A974484E247D2A3B001FFFC7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A974484F247D2A6D001FFFC7 /* RoundButton.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,13 +226,13 @@
 			files = (
 				31379142246B1BB300FDC13E /* Indoor4.png in Resources */,
 				31379141246B1BB300FDC13E /* Indoor3.png in Resources */,
-				A96B5F8624695BCD00D17199 /* SetPlan.storyboard in Resources */,
+				A94C7FBC247E2FA3002DBFDF /* ProgressPlan.storyboard in Resources */,
 				A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
 				04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */,
-				A96B5F8424695BB500D17199 /* ProgressPlan.storyboard in Resources */,
+				A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */,
 				A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */,
 				31379151246BC0A000FDC13E /* Bicalms Kalem Euy.png in Resources */,
 				3137914A246B286000FDC13E /* Jogging.png in Resources */,
@@ -227,6 +242,7 @@
 				04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* Running.png in Resources */,
+				A92958DF247E17B400355C9A /* SetPlan.storyboard in Resources */,
 				A974484D247CF947001FFFC7 /* icon in Resources */,
 				04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */,
 				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
@@ -246,6 +262,7 @@
 			files = (
 				A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */,
 				04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */,
+				A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
