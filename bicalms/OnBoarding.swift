@@ -2,49 +2,127 @@
 //  OnBoarding.swift
 //  bicalms
 //
-//  Created by Rifki Triaditiya Putra on 27/05/20.
+//  Created by Rifki Triaditiya Putra on 28/05/20.
 //  Copyright © 2020 michael tamsil. All rights reserved.
 //
 
-import UIKit
+import SwiftUI
 
-class OnBoarding: UIViewController, UIScrollViewDelegate {
+struct OnBoarding: View {
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var labelText1: UILabel!
-    @IBOutlet weak var labelText2: UILabel!
-    @IBOutlet weak var pageControl: UIPageControl!
-   
-    var tampilan: [String] = ["OnBoarding1", "OnBoarding2", "OnBoarding3"]
-    var frame = CGRect.zero
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @State var Currentpage = 0
+    var body: some View {
+        
+        ZStack {
+        
+        LinearGradient(gradient: .init(colors: [(Color("Blue2")), (Color("Blue1"))]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+        
+           
 
-        pageControl.numberOfPages = tampilan.count
-        setupScreens()
-
-        scrollView.delegate = self
-    }
-    func setupScreens() {
-        for index in 0..<tampilan.count {
-            // 1.
-            frame.origin.x = scrollView.frame.size.width * CGFloat(index)
-            frame.size = scrollView.frame.size
+        VStack {
             
-            // 2.
-            let imgView = UIImageView(frame: frame)
-            imgView.image = UIImage(named: tampilan[index])
-
-            self.scrollView.addSubview(imgView)
+            VStack(spacing: 5) {
+                           Text("Bicalms")
+                               .font(.title)
+                               .fontWeight(.heavy)
+                               .foregroundColor(.white)
+                               .multilineTextAlignment(.center)
+                       }
+            
+            ZStack {
+                            
+                if Currentpage == 0 {
+                    
+                   Image("OnBoarding1").resizable().frame(width: 232.12, height: 297.23).cornerRadius(20).padding()
+                }
+                else if Currentpage == 1 {
+                    
+                    Image("OnBoarding2").resizable().frame(width: 228.11, height: 237.43).cornerRadius(20).padding()
+                    
+                }
+                else if Currentpage == 2 {
+                    
+                    Image("OnBoarding3").resizable().frame(width: 283.65, height: 246.51).cornerRadius(20).padding()
+                    
+                }
+            }
+            VStack {
+                
+               if Currentpage == 0 {
+                VStack(alignment: .center, spacing: 6) {
+                  Text("Bicalms helps you relieve")
+                    .foregroundColor(.white)
+                  Text("the depressive symptoms")
+                        .foregroundColor(.white)
+                }
+                .frame(width: 380, alignment: .center)
+            }
+                else if Currentpage == 1 {
+                VStack(alignment: .center, spacing: 6) {
+                      Text("Bicalms provides aerobics exercise")
+                        .foregroundColor(.white)
+                      Text("for your mental health")
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 380, alignment: .center)
+                }
+                else if Currentpage == 2 {
+                VStack(alignment: .center, spacing: 6) {
+                      Text("Bicalms also organize your")
+                        .foregroundColor(.white)
+                      Text("exercise weekly")
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 380, alignment: .center)
+                }
+            }
+            pageControl(current: Currentpage)
+            
+            HStack{
+                
+                Button(action: {
+                    
+                    if self.Currentpage < 2 {
+                        self.Currentpage += 1
+                    }
+                    
+                }) {
+                    
+                    Text("Next")
+                    
+                }.frame(width: 200, height: 40).background(Color.orange).cornerRadius(20).foregroundColor(.white)
+            }
+            
+            .padding()
+        }.animation(.spring())
+        
+        
         }
+    }
+}
 
-        // 3.
-        scrollView.contentSize = CGSize(width: (scrollView.frame.size.width * CGFloat(tampilan.count)), height: scrollView.frame.size.height)
-        scrollView.delegate = self
+struct OnBoarding_Previews: PreviewProvider {
+    static var previews: some View {
+        OnBoarding()
+    }
+}
+
+struct pageControl : UIViewRepresentable {
+    
+    var current = 0
+    
+    func makeUIView(context: UIViewRepresentableContext<pageControl>) -> UIPageControl  {
+        
+        let page = UIPageControl()
+        page.currentPageIndicatorTintColor = .white
+        page.numberOfPages = 3
+        page.pageIndicatorTintColor = .gray
+        return page
     }
     
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        let pageNumber = scrollView.contentOffset.x / scrollView.frame.size.width
-        pageControl.currentPage = Int(pageNumber)
+    func updateUIView(_ uiView: UIPageControl, context: UIViewRepresentableContext<pageControl>) {
+        
+        uiView.currentPage = current
+         
     }
 }

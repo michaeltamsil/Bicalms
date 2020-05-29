@@ -42,8 +42,8 @@
 		3137914F246B291000FDC13E /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137914E246B291000FDC13E /* Walking.png */; };
 		31379151246BC0A000FDC13E /* Bicalms Kalem Euy.png in Resources */ = {isa = PBXBuildFile; fileRef = 31379150246BC0A000FDC13E /* Bicalms Kalem Euy.png */; };
 		31827340246E264B0097B145 /* Indoor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3182733F246E264B0097B145 /* Indoor2.png */; };
-		49853CC2247E600A00850C5B /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49853CC1247E600A00850C5B /* OnBoarding.swift */; };
 		49BB6086247CEAA000D156EE /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB6085247CEAA000D156EE /* OnBoarding.storyboard */; };
+		49BB6FFA247F98DB009BED84 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB6FF9247F98DB009BED84 /* OnBoarding.swift */; };
 		A92958DF247E17B400355C9A /* SetPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92958DE247E17B400355C9A /* SetPlan.storyboard */; };
 		A94C7FBC247E2FA3002DBFDF /* ProgressPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */; };
 		A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */; };
@@ -99,8 +99,8 @@
 		3137914E246B291000FDC13E /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Walking.png; sourceTree = "<group>"; };
 		31379150246BC0A000FDC13E /* Bicalms Kalem Euy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bicalms Kalem Euy.png"; sourceTree = "<group>"; };
 		3182733F246E264B0097B145 /* Indoor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor2.png; sourceTree = "<group>"; };
-		49853CC1247E600A00850C5B /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		49BB6085247CEAA000D156EE /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		49BB6FF9247F98DB009BED84 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		A92958DE247E17B400355C9A /* SetPlan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetPlan.storyboard; sourceTree = "<group>"; };
 		A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProgressPlan.storyboard; sourceTree = "<group>"; };
 		A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Congratulations.storyboard; sourceTree = "<group>"; };
@@ -218,11 +218,12 @@
 				A96B5F6C24694B9800D17199 /* Main.storyboard */,
 				A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */,
 				49BB6085247CEAA000D156EE /* OnBoarding.storyboard */,
-				49853CC1247E600A00850C5B /* OnBoarding.swift */,
+				49BB6FF9247F98DB009BED84 /* OnBoarding.swift */,
 				A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */,
 				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
 				04CB4D02247CDDAA00949104 /* IndoorExercise.swift */,
 				04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */,
+				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
 				A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */,
 				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
 				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
@@ -316,6 +317,8 @@
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
 				041FFC70248117D6000B9E5E /* D6 - Mountain Walkers.mp4 in Resources */,
 				04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */,
+				04E2DC77247ED3BF001FD0FB /* D2 right.mp4 in Resources */,
+				04E2DC7A247ED3BF001FD0FB /* D2 left.mp4 in Resources */,
 				A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */,
 				A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */,
 				041FFC6E248117D6000B9E5E /* D9 - Burpees.mp4 in Resources */,
@@ -362,13 +365,13 @@
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
+				49BB6FFA247F98DB009BED84 /* OnBoarding.swift in Sources */,
 				04CB4D05247D453500949104 /* OutdoorAnimation.swift in Sources */,
 				04CB4D03247CDDAA00949104 /* IndoorExercise.swift in Sources */,
 				A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
-				49853CC2247E600A00850C5B /* OnBoarding.swift in Sources */,
 				A9FB2A2324793F2E006CEBDE /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
