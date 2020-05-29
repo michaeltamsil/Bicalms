@@ -26,7 +26,7 @@ class PlayerUIViewIndoor: UIView {
         super.init(frame: frame)
 
         // Load video
-        let fileUrl = Bundle.main.url(forResource: "D6", withExtension: "mp4")!
+        let fileUrl = Bundle.main.url(forResource: "D10 - Jumping Jacks", withExtension: "mp4")!
         let playerItem = AVPlayerItem(url: fileUrl)
         
         // Setup Video

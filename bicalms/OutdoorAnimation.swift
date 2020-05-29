@@ -12,15 +12,16 @@ import AVFoundation
 struct OutdoorAnimation: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIView {
-        return PlayerUIViewOutdoor(frame: .zero)
+        return QueuePlayerUIViewOutdoor(frame: .zero)
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
     }
 }
 
-class PlayerUIViewOutdoor: UIView {
-    private var playerLayer = AVPlayerLayer()
+class QueuePlayerUIViewOutdoor: UIView {
+    public var playerLayer = AVPlayerLayer()
+    public var playerLooper: AVPlayerLooper?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,10 +31,13 @@ class PlayerUIViewOutdoor: UIView {
         let playerItem = AVPlayerItem(url: fileUrl)
         
         // Setup Video
-        let player = AVPlayer(playerItem: playerItem)
+        let player = AVQueuePlayer(playerItem: playerItem)
         playerLayer.player = player
         playerLayer.videoGravity = .resizeAspectFill
         layer.addSublayer(playerLayer)
+        
+        // Looping Video
+        playerLooper = AVPlayerLooper(player: player, templateItem: playerItem)
         
         // Play
         player.play()
