@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Var-rY-zEZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yh3-l8-Ye0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnp-na-zzc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="695.6521739130435" y="146.65178571428569"/>
+            <point key="canvasLocation" x="649" y="-250"/>
         </scene>
         <!--Progress-->
         <scene sceneID="fxh-bE-0yb">
@@ -368,12 +368,111 @@
             </objects>
             <point key="canvasLocation" x="1442.0289855072465" y="146.65178571428569"/>
         </scene>
+        <!--Progress-->
+        <scene sceneID="rvD-fb-b6O">
+            <objects>
+                <viewController id="Yh3-l8-Ye0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J26-Xh-RTo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noplan" translatesAutoresizingMaskIntoConstraints="NO" id="geb-Em-Tpb">
+                                <rect key="frame" x="48" y="110" width="317" height="248"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have a plan yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzp-bK-IEB">
+                                <rect key="frame" x="126.5" y="366" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set plan to see a progress weekly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpu-VG-Sgk">
+                                <rect key="frame" x="78.5" y="408" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUJ-RW-IRc" customClass="RoundButton" customModule="bicalms" customModuleProvider="target">
+                                <rect key="frame" x="132" y="717" width="149" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Set Plan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BKA-4M-pxr">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ur6-Wj-S0I">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="769"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="systemThinMaterialDark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" name="Blue2"/>
+                        <constraints>
+                            <constraint firstItem="hpu-VG-Sgk" firstAttribute="top" secondItem="mzp-bK-IEB" secondAttribute="bottom" constant="21" id="07O-8X-KP2"/>
+                            <constraint firstItem="lmZ-LY-6Y7" firstAttribute="bottom" secondItem="geb-Em-Tpb" secondAttribute="bottom" constant="455" id="08I-ny-vxZ"/>
+                            <constraint firstItem="geb-Em-Tpb" firstAttribute="top" secondItem="lmZ-LY-6Y7" secondAttribute="top" constant="66" id="Bmc-Lq-gze"/>
+                            <constraint firstItem="mzp-bK-IEB" firstAttribute="centerX" secondItem="geb-Em-Tpb" secondAttribute="centerX" id="Fwn-bp-qDS"/>
+                            <constraint firstItem="mzp-bK-IEB" firstAttribute="top" secondItem="geb-Em-Tpb" secondAttribute="bottom" constant="8" id="Ji0-tJ-tU0"/>
+                            <constraint firstItem="hpu-VG-Sgk" firstAttribute="centerX" secondItem="mzp-bK-IEB" secondAttribute="centerX" id="aGb-nB-W31"/>
+                            <constraint firstItem="lmZ-LY-6Y7" firstAttribute="trailing" secondItem="geb-Em-Tpb" secondAttribute="trailing" constant="49" id="anD-tp-6CU"/>
+                            <constraint firstItem="geb-Em-Tpb" firstAttribute="leading" secondItem="lmZ-LY-6Y7" secondAttribute="leading" constant="48" id="ovc-JM-EbO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lmZ-LY-6Y7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="timerWhite.png" selectedImage="timerWhite.png" id="ZDD-qi-RdT">
+                        <color key="badgeColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOX-lU-Q4i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="IAk-3K-cTL">
+                    <rect key="frame" x="0.0" y="0.0" width="358" height="533"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="FEP-Jm-Tnc">
+                            <rect key="frame" x="-28" y="0.0" width="414" height="338"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        </datePicker>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDH-e0-ZSQ">
+                            <rect key="frame" x="23" y="302" width="313" height="65"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">*According to Physical Activity Guideline,
+  
+</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irO-H6-CxC">
+                            <rect key="frame" x="27" y="351" width="290" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Save"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLW-S2-nB0">
+                            <rect key="frame" x="27" y="427" width="290" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Cancel"/>
+                        </button>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="5HM-bu-SWa"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="695.6521739130435" y="868.52678571428567"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Indoor1.png" width="179" height="123"/>
         <image name="Indoor3.png" width="179" height="123"/>
         <image name="Running.png" width="180" height="123"/>
         <image name="Walking.png" width="180" height="123"/>
+        <image name="noplan" width="336" height="297"/>
+        <image name="timerWhite.png" width="22.5" height="25"/>
         <namedColor name="Blue2">
             <color red="0.019999999552965164" green="0.090000003576278687" blue="0.18400000035762787" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -11,7 +11,7 @@
         <!--Progress-->
         <scene sceneID="Dsp-QK-XoS">
             <objects>
-                <viewController id="Oc9-0x-lBm" sceneMemberID="viewController">
+                <viewController id="Oc9-0x-lBm" customClass="SetPlan" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CEu-f0-6Pp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
