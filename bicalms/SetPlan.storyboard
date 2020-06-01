@@ -8,25 +8,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Progress-->
         <scene sceneID="Dsp-QK-XoS">
             <objects>
-                <viewController id="Oc9-0x-lBm" sceneMemberID="viewController">
+                <viewController id="Oc9-0x-lBm" customClass="SetPlan" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CEu-f0-6Pp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noplan" translatesAutoresizingMaskIntoConstraints="NO" id="lPf-lo-BF2">
-                                <rect key="frame" x="48" y="110" width="317" height="297"/>
+                                <rect key="frame" x="48" y="110" width="317" height="248"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have a plan yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td8-0C-pV2">
-                                <rect key="frame" x="126.5" y="415" width="160" height="21"/>
+                                <rect key="frame" x="126.5" y="366" width="160" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set plan to see a progress weekly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c51-lh-IdU">
-                                <rect key="frame" x="78.5" y="457" width="256" height="21"/>
+                                <rect key="frame" x="78.5" y="408" width="256" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -45,17 +45,6 @@
                                     <segue destination="dsP-CE-SPK" kind="show" id="wn9-K4-TNq"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ip-b1-1GO">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Activity" image="activityDisabled" selectedImage="activityDisabled" id="NNb-uX-iIX"/>
-                                    <tabBarItem title="Progress" image="timerWhite" selectedImage="timerWhite" id="OTw-wX-wJl"/>
-                                </items>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" name="Blue2"/>
                         <constraints>
@@ -70,6 +59,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tAy-Tf-w8Z"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="timerWhite.png" selectedImage="timerWhite.png" id="j6B-6M-GDf">
+                        <color key="badgeColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eS-nb-iyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,9 +80,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="activityDisabled" width="22" height="22"/>
         <image name="noplan" width="336" height="297"/>
-        <image name="timerWhite" width="22.5" height="25"/>
+        <image name="timerWhite.png" width="22.5" height="25"/>
         <namedColor name="Blue2">
             <color red="0.019999999552965164" green="0.090000003576278687" blue="0.18400000035762787" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
