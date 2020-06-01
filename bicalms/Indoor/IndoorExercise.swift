@@ -10,10 +10,12 @@ import SwiftUI
 import UIKit
 import AVFoundation
 
+
 struct IndoorExercise : View {
     
     @State var timer = Timer.publish (every: 1, on: .current, in: .common).autoconnect()
-    @State private var countDown = 4
+
+    @State private var countDown = 31
     @State private var show = true
     @State private var running = true
     @State private var isPlaying = false
