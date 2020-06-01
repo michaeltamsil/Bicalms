@@ -61,11 +61,11 @@ struct WalkingExercise : View {
                     
                     VStack(spacing: 4){
                         
-                        Text("01/10")
+                        Text("Outdoor Exercise")
                             .font(.body)
                             .foregroundColor(Color("White50"))
                         
-                        Text("Toy Soldiers")
+                        Text("Walking")
                             .font(.title)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
@@ -146,19 +146,14 @@ struct WalkingExercise : View {
                         }
 
                         if (self.countDown == 0 && self.isPlayingTutorial) {
-                            self.countDown = 32
+                            self.countDown = -2
                             self.isPlayingTutorial = false
                             self.isInitialExercise = true
                             self.playExercise()
                         }
                         
-                        if self.countDown < 32 && self.isPlayingExercise {
-                            self.countDown -= 1
-                        }
-                        
-                        if self.countDown == 0 && self.isPlayingExercise {
-                            self.timer.upstream.connect().cancel()
-                            self.nextExercise = true
+                        if self.countDown > -2 && self.isPlayingExercise {
+                            self.countDown += 1
 
                         }
                     }
@@ -193,7 +188,7 @@ struct WalkingExercise : View {
         
         if (isInitialExercise) {
             self.isInitialExercise = false
-            self.countDown -= 1
+            self.countDown += 1
         }
         
         self.isPlayingExercise = true
