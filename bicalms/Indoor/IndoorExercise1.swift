@@ -22,6 +22,7 @@ struct IndoorExercise1 : View {
     @State private var nextExercise = false
     @State private var progressColor3 = "Blue3"
     @State private var progressColor4 = "Blue4"
+    @State var showAlert = false
     
     var body: some View {
 
@@ -44,17 +45,23 @@ struct IndoorExercise1 : View {
                     .frame(width: 360, height: 360, alignment: .center)
                     .clipShape(Circle())
             }
+            .blur(radius: showAlert ? 30 : 0)
             
             VStack(spacing: 64){
                 
                 HStack{
                     
                     Spacer()
-                    Image(systemName: "xmark")
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                        Image(systemName: "xmark")
                         .frame(width: 64)
                         .padding(.top,40)
                         .font(.title)
                         .foregroundColor(.white)
+                    }
                 }
                 
                 VStack(spacing: 460){
@@ -167,7 +174,14 @@ struct IndoorExercise1 : View {
                         }
                     }
                 }
+                .blur(radius: showAlert ? 30 : 0)
+                
                 Spacer()
+            }
+            .blur(radius: showAlert ? 30 : 0)
+            
+            if showAlert {
+                indoorAlertView1(showAlert: $showAlert)
             }
         }
     }
@@ -228,8 +242,57 @@ struct IndoorExercise1 : View {
     }
 }
 
+struct indoorAlertView1 : View {
+    
+    @Binding var showAlert : Bool
+    var body: some View {
+        
+        ZStack {
+            
+            VStack {
+                
+                Text("Are you sure ?")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .foregroundColor(Color("Blue2"))
+                .padding(.bottom, 8)
+                .padding(.top, 32)
+                
+                Text("You still can exercise later")
+                .font(.subheadline)
+                .foregroundColor(Color("Blue2"))
+                
+                HStack{
+                    
+                    Text("Leave")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.red)
+                    .frame(width: 120, height: 64)
+                    .padding(.top, 8)
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                    Text("Cancel")
+                        .foregroundColor(.blue)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
+                }
+            }
+        }
+        .frame(width: 280, height: 140)
+        .background(Color("White75"))
+        .cornerRadius(24)
+    }
+}
+
 struct IndoorExercise1_Previews: PreviewProvider {
     static var previews: some View {
         IndoorExercise1()
     }
 }
+

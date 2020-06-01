@@ -272,11 +272,18 @@
 			path = "Outdoor Animation";
 			sourceTree = "<group>";
 		};
-		045F4DC42484BC5E00E7A118 /* Indoor */ = {
+		042CC87D2485773000B462F5 /* Trial-Percobaan */ = {
 			isa = PBXGroup;
 			children = (
 				045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */,
 				045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */,
+			);
+			path = "Trial-Percobaan";
+			sourceTree = "<group>";
+		};
+		045F4DC42484BC5E00E7A118 /* Indoor */ = {
+			isa = PBXGroup;
+			children = (
 				043B9AE02484063200914170 /* IndoorAnimation1.swift */,
 				043B9AE2248408A100914170 /* IndoorExercise1.swift */,
 				045F4DC92484BF6B00E7A118 /* IndoorAnimation2A.swift */,
@@ -411,6 +418,7 @@
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
 				045F4DFE2484D99800E7A118 /* Outdoor */,
 				045F4DC42484BC5E00E7A118 /* Indoor */,
+				042CC87D2485773000B462F5 /* Trial-Percobaan */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
 				A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */,
