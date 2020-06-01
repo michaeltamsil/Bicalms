@@ -87,6 +87,7 @@ struct IndoorExercise1 : View {
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                                
                             } else {
                                 
                                 VStack {
@@ -123,7 +124,6 @@ struct IndoorExercise1 : View {
                                                     .font(.largeTitle)
                                                     .foregroundColor(.white)
                                             }
-                                            
                                         }
                                         
                                         Image(systemName: "info.circle")
@@ -132,7 +132,6 @@ struct IndoorExercise1 : View {
                                             .foregroundColor(.white)
                                     }
                                 }
-                                
                             }
                         }
                             
@@ -146,13 +145,13 @@ struct IndoorExercise1 : View {
                         }
 
                         if (self.countDown == 0 && self.isPlayingTutorial) {
-                            self.countDown = 32
+                            self.countDown = 3
                             self.isPlayingTutorial = false
                             self.isInitialExercise = true
                             self.playExercise()
                         }
                         
-                        if self.countDown < 32 && self.isPlayingExercise {
+                        if self.countDown < 3 && self.isPlayingExercise {
                             self.countDown -= 1
                         }
                         

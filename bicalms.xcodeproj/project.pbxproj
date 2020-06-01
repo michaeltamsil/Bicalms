@@ -62,16 +62,18 @@
 		045F4E0A2484F0C400E7A118 /* RunningExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E092484F0C400E7A118 /* RunningExercise.swift */; };
 		045F4E0C2484F0D700E7A118 /* CyclingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */; };
 		045F4E0E2484F0E300E7A118 /* CyclingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */; };
-		04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4CFA247CB15100949104 /* OutdoorExercise.swift */; };
 		04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFC247CDD0C00949104 /* On Boarding 3.png */; };
 		04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFD247CDD0C00949104 /* On Boarding 2.png */; };
 		04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFE247CDD0C00949104 /* On Boarding 1.png */; };
-		04CB4D03247CDDAA00949104 /* IndoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4D02247CDDAA00949104 /* IndoorExercise.swift */; };
-		04CB4D05247D453500949104 /* OutdoorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4D04247D453500949104 /* OutdoorAnimation.swift */; };
-		04E2DC65247ECD9E001FD0FB /* IndoorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */; };
 		04E2DC75247ED3BF001FD0FB /* Jogging Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04E2DC68247ED3BF001FD0FB /* Jogging Animation.mp4 */; };
 		04E2DC7B247ED3BF001FD0FB /* Walking Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04E2DC6E247ED3BF001FD0FB /* Walking Animation.mp4 */; };
 		04E2DC7D247ED3BF001FD0FB /* Bike Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04E2DC70247ED3BF001FD0FB /* Bike Animation.mp4 */; };
+		04EEF2EC2485222F00297DEA /* IndoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2E92485222F00297DEA /* IndoorExercise.swift */; };
+		04EEF2ED2485222F00297DEA /* IndoorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2EA2485222F00297DEA /* IndoorAnimation.swift */; };
+		04EEF2EE2485222F00297DEA /* IndoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEF2EB2485222F00297DEA /* IndoorExercise.storyboard */; };
+		04EEF2F82485232400297DEA /* OutdoorExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEF2F52485232400297DEA /* OutdoorExcercise.storyboard */; };
+		04EEF2F92485232400297DEA /* OutdoorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2F62485232400297DEA /* OutdoorAnimation.swift */; };
+		04EEF2FA2485232400297DEA /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2F72485232400297DEA /* OutdoorExercise.swift */; };
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
@@ -94,8 +96,6 @@
 		A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7224694B9C00D17199 /* Assets.xcassets */; };
 		A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */; };
 		A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */; };
-		A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */; };
-		A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */; };
 		A974484D247CF947001FFFC7 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = A974484C247CF947001FFFC7 /* icon */; };
 		A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974484F247D2A6D001FFFC7 /* RoundButton.swift */; };
 		A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */; };
@@ -158,16 +158,18 @@
 		045F4E092484F0C400E7A118 /* RunningExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningExercise.swift; sourceTree = "<group>"; };
 		045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingAnimation.swift; sourceTree = "<group>"; };
 		045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingExercise.swift; sourceTree = "<group>"; };
-		04CB4CFA247CB15100949104 /* OutdoorExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
 		04CB4CFC247CDD0C00949104 /* On Boarding 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 3.png"; sourceTree = "<group>"; };
 		04CB4CFD247CDD0C00949104 /* On Boarding 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 2.png"; sourceTree = "<group>"; };
 		04CB4CFE247CDD0C00949104 /* On Boarding 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 1.png"; sourceTree = "<group>"; };
-		04CB4D02247CDDAA00949104 /* IndoorExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise.swift; sourceTree = "<group>"; };
-		04CB4D04247D453500949104 /* OutdoorAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorAnimation.swift; sourceTree = "<group>"; };
-		04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation.swift; sourceTree = "<group>"; };
 		04E2DC68247ED3BF001FD0FB /* Jogging Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jogging Animation.mp4"; sourceTree = "<group>"; };
 		04E2DC6E247ED3BF001FD0FB /* Walking Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Walking Animation.mp4"; sourceTree = "<group>"; };
 		04E2DC70247ED3BF001FD0FB /* Bike Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bike Animation.mp4"; sourceTree = "<group>"; };
+		04EEF2E92485222F00297DEA /* IndoorExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndoorExercise.swift; path = Indoor/IndoorExercise.swift; sourceTree = "<group>"; };
+		04EEF2EA2485222F00297DEA /* IndoorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndoorAnimation.swift; path = Indoor/IndoorAnimation.swift; sourceTree = "<group>"; };
+		04EEF2EB2485222F00297DEA /* IndoorExercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IndoorExercise.storyboard; path = Indoor/IndoorExercise.storyboard; sourceTree = "<group>"; };
+		04EEF2F52485232400297DEA /* OutdoorExcercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OutdoorExcercise.storyboard; sourceTree = "<group>"; };
+		04EEF2F62485232400297DEA /* OutdoorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorAnimation.swift; sourceTree = "<group>"; };
+		04EEF2F72485232400297DEA /* OutdoorExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
@@ -193,8 +195,6 @@
 		A96B5F7524694B9C00D17199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96B5F7724694B9C00D17199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseExcercise.storyboard; sourceTree = "<group>"; };
-		A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IndoorExercise.storyboard; sourceTree = "<group>"; };
-		A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OutdoorExcercise.storyboard; sourceTree = "<group>"; };
 		A974484C247CF947001FFFC7 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 		A974484F247D2A6D001FFFC7 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ChooseExcerciseDetail.storyboard; path = bicalms/ChooseExcerciseDetail.storyboard; sourceTree = SOURCE_ROOT; };
@@ -247,9 +247,6 @@
 		045F4DC42484BC5E00E7A118 /* Indoor */ = {
 			isa = PBXGroup;
 			children = (
-				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
-				04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */,
-				04CB4D02247CDDAA00949104 /* IndoorExercise.swift */,
 				045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */,
 				045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */,
 				043B9AE02484063200914170 /* IndoorAnimation1.swift */,
@@ -287,9 +284,6 @@
 		045F4DFE2484D99800E7A118 /* Outdoor */ = {
 			isa = PBXGroup;
 			children = (
-				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
-				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
-				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
 				045F4E012484F07800E7A118 /* WalkingAnimation.swift */,
 				045F4DFF2484F06600E7A118 /* WalkingExercise.swift */,
 				045F4E032484F09600E7A118 /* JoggingAnimation.swift */,
@@ -356,13 +350,13 @@
 				49BB6085247CEAA000D156EE /* OnBoarding.storyboard */,
 				49BB6FF9247F98DB009BED84 /* OnBoarding.swift */,
 				A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */,
-				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
-				04CB4D02247CDDAA00949104 /* IndoorExercise.swift */,
-				04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */,
+				04EEF2EB2485222F00297DEA /* IndoorExercise.storyboard */,
+				04EEF2E92485222F00297DEA /* IndoorExercise.swift */,
+				04EEF2EA2485222F00297DEA /* IndoorAnimation.swift */,
+				04EEF2F52485232400297DEA /* OutdoorExcercise.storyboard */,
+				04EEF2F72485232400297DEA /* OutdoorExercise.swift */,
+				04EEF2F62485232400297DEA /* OutdoorAnimation.swift */,
 				A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */,
-				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
-				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
-				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
 				31FBF0D82484536300305C65 /* SetPlan.storyboard */,
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
 				045F4DFE2484D99800E7A118 /* Outdoor */,
@@ -447,7 +441,6 @@
 				31379142246B1BB300FDC13E /* Indoor4.png in Resources */,
 				31379141246B1BB300FDC13E /* Indoor3.png in Resources */,
 				A94C7FBC247E2FA3002DBFDF /* ProgressPlan.storyboard in Resources */,
-				A96B5F8024695B8A00D17199 /* IndoorExercise.storyboard in Resources */,
 				04E2DC75247ED3BF001FD0FB /* Jogging Animation.mp4 in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				041FFC6C248117D6000B9E5E /* D3 - Overhead Side Knees (left).mp4 in Resources */,
@@ -469,6 +462,7 @@
 				31FBF0D92484536300305C65 /* SetPlan.storyboard in Resources */,
 				04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */,
 				041FFC66248117D6000B9E5E /* D5 - Curtsy Lunge (left).mp4 in Resources */,
+				04EEF2F82485232400297DEA /* OutdoorExcercise.storyboard in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* Running.png in Resources */,
 				041FFC68248117D6000B9E5E /* D5 - Curtsy Lunge (right).mp4 in Resources */,
@@ -477,10 +471,10 @@
 				041FFC71248117D6000B9E5E /* D1 - Toy Soldiers.mp4 in Resources */,
 				A974484D247CF947001FFFC7 /* icon in Resources */,
 				04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */,
-				A96B5F8224695BA200D17199 /* OutdoorExcercise.storyboard in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
 				04E2DC7D247ED3BF001FD0FB /* Bike Animation.mp4 in Resources */,
 				041FFC6D248117D6000B9E5E /* D4 - Flying Fast Ups (left).mp4 in Resources */,
+				04EEF2EE2485222F00297DEA /* IndoorExercise.storyboard in Resources */,
 				042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */,
 				0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */,
 				49BB6086247CEAA000D156EE /* OnBoarding.storyboard in Resources */,
@@ -497,8 +491,6 @@
 			files = (
 				045F4DC82484BCD900E7A118 /* IndoorExerciseTrial.swift in Sources */,
 				A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */,
-				04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */,
-				04E2DC65247ECD9E001FD0FB /* IndoorAnimation.swift in Sources */,
 				045F4DD42484C35D00E7A118 /* IndoorExercise3A.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				045F4E042484F09600E7A118 /* JoggingAnimation.swift in Sources */,
@@ -506,6 +498,7 @@
 				045F4DDA2484C7B700E7A118 /* IndoorAnimation4A.swift in Sources */,
 				043665DD24838EB00048A640 /* CircularTimer30.swift in Sources */,
 				045F4DD02484C1D000E7A118 /* IndoorExercise2B.swift in Sources */,
+				04EEF2F92485232400297DEA /* OutdoorAnimation.swift in Sources */,
 				045F4E062484F0A600E7A118 /* JoggingExercise.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				045F4DCA2484BF6B00E7A118 /* IndoorAnimation2A.swift in Sources */,
@@ -519,19 +512,20 @@
 				045F4DED2484CC1000E7A118 /* IndoorExercise6.swift in Sources */,
 				045F4DE92484CA9600E7A118 /* IndoorExercise5B.swift in Sources */,
 				045F4DD62484C3FD00E7A118 /* IndoorAnimation3B.swift in Sources */,
+				04EEF2EC2485222F00297DEA /* IndoorExercise.swift in Sources */,
 				045F4DE02484C8B700E7A118 /* IndoorExercise4B.swift in Sources */,
 				045F4DFB2484D8B600E7A118 /* IndoorAnimation10.swift in Sources */,
 				045F4E0C2484F0D700E7A118 /* CyclingAnimation.swift in Sources */,
 				49BB6FFA247F98DB009BED84 /* OnBoarding.swift in Sources */,
 				043B9AE12484063200914170 /* IndoorAnimation1.swift in Sources */,
+				04EEF2FA2485232400297DEA /* OutdoorExercise.swift in Sources */,
 				045F4DE22484C9BD00E7A118 /* IndoorAnimation5A.swift in Sources */,
 				045F4DDC2484C7CC00E7A118 /* IndoorExercise4A.swift in Sources */,
 				045F4DFD2484D8C000E7A118 /* IndoorExercise10.swift in Sources */,
 				045F4E082484F0B500E7A118 /* RunningAnimation.swift in Sources */,
 				045F4DE42484C9CE00E7A118 /* IndoorExercise5A.swift in Sources */,
 				045F4E002484F06600E7A118 /* WalkingExercise.swift in Sources */,
-				04CB4D05247D453500949104 /* OutdoorAnimation.swift in Sources */,
-				04CB4D03247CDDAA00949104 /* IndoorExercise.swift in Sources */,
+				04EEF2ED2485222F00297DEA /* IndoorAnimation.swift in Sources */,
 				045F4DF92484D7E500E7A118 /* IndoorExercise9.swift in Sources */,
 				045F4DF72484D7D700E7A118 /* IndoorAnimation9.swift in Sources */,
 				045F4DF32484D71800E7A118 /* IndoorAnimation8.swift in Sources */,
