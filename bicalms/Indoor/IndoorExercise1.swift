@@ -22,6 +22,7 @@ struct IndoorExercise1 : View {
     @State private var nextExercise = false
     @State private var progressColor3 = "Blue3"
     @State private var progressColor4 = "Blue4"
+    @State var showAlert = false
     
     var body: some View {
 
@@ -44,17 +45,23 @@ struct IndoorExercise1 : View {
                     .frame(width: 360, height: 360, alignment: .center)
                     .clipShape(Circle())
             }
+            .blur(radius: showAlert ? 30 : 0)
             
             VStack(spacing: 64){
                 
                 HStack{
                     
                     Spacer()
-                    Image(systemName: "xmark")
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                        Image(systemName: "xmark")
                         .frame(width: 64)
                         .padding(.top,40)
                         .font(.title)
                         .foregroundColor(.white)
+                    }
                 }
                 
                 VStack(spacing: 460){
@@ -105,11 +112,16 @@ struct IndoorExercise1 : View {
                                     }
                                     
                                     HStack {
+                                        
+                                        Button(action: {
+                                            self.resetExercise()
+                                        }) {
                                         Image(systemName: "arrow.counterclockwise")
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
-                                        
+                                        }
+                                            
                                         Button(action: {
                                             self.playOrPause()
                                         }) {
@@ -136,22 +148,22 @@ struct IndoorExercise1 : View {
                         }
                             
                      .onReceive(timer) { (output) in
-                        if self.countDown > 9 && self.isPlayingTutorial {
+                        if self.countDown > 4 && self.isPlayingTutorial {
                             self.timer.upstream.connect().cancel()
                         }
                         
-                        if self.countDown < 9 && self.isPlayingTutorial {
+                        if self.countDown < 4 && self.isPlayingTutorial {
                             self.countDown -= 1
                         }
 
                         if (self.countDown == 0 && self.isPlayingTutorial) {
-                            self.countDown = 3
+                            self.countDown = 32
                             self.isPlayingTutorial = false
                             self.isInitialExercise = true
                             self.playExercise()
                         }
                         
-                        if self.countDown < 3 && self.isPlayingExercise {
+                        if self.countDown < 32 && self.isPlayingExercise {
                             self.countDown -= 1
                         }
                         
@@ -162,7 +174,14 @@ struct IndoorExercise1 : View {
                         }
                     }
                 }
+                .blur(radius: showAlert ? 30 : 0)
+                
                 Spacer()
+            }
+            .blur(radius: showAlert ? 30 : 0)
+            
+            if showAlert {
+                indoorAlertView1(showAlert: $showAlert)
             }
         }
     }
@@ -207,7 +226,68 @@ struct IndoorExercise1 : View {
             self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
             self.isPlaying = true
         }
-    }  
+    }
+    
+    func resetExercise() {
+        self.isInitialTutorial = true
+        self.isPlayingTutorial = false
+        self.isInitialExercise = false
+        self.isPlayingExercise = false
+        self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
+        self.countDown = 4
+        self.progressColor3 = "Blue3"
+        self.progressColor4 = "Blue4"
+        self.isPlaying = false
+    
+    }
+}
+
+struct indoorAlertView1 : View {
+    
+    @Binding var showAlert : Bool
+    var body: some View {
+        
+        ZStack {
+            
+            VStack {
+                
+                Text("Are you sure ?")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .foregroundColor(Color("Blue2"))
+                .padding(.bottom, 8)
+                .padding(.top, 32)
+                
+                Text("You still can exercise later")
+                .font(.subheadline)
+                .foregroundColor(Color("Blue2"))
+                
+                HStack{
+                    
+                    Text("Leave")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.red)
+                    .frame(width: 120, height: 64)
+                    .padding(.top, 8)
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                    Text("Cancel")
+                        .foregroundColor(.blue)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
+                }
+            }
+        }
+        .frame(width: 280, height: 140)
+        .background(Color("White75"))
+        .cornerRadius(24)
+    }
 }
 
 struct IndoorExercise1_Previews: PreviewProvider {
@@ -215,3 +295,4 @@ struct IndoorExercise1_Previews: PreviewProvider {
         IndoorExercise1()
     }
 }
+

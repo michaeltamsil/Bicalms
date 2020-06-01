@@ -22,6 +22,8 @@ struct WalkingExercise : View {
     @State private var nextExercise = false
     @State private var progressColor3 = "Blue3"
     @State private var progressColor4 = "Blue4"
+    @State var showAlert = false
+    @State var showFinish = false
     
     var body: some View {
 
@@ -43,29 +45,37 @@ struct WalkingExercise : View {
                 WalkingAnimation()
                     .frame(width: 360, height: 360, alignment: .center)
                     .clipShape(Circle())
+                
             }
+            .blur(radius: showAlert ? 30 : 0)
+            .blur(radius: showFinish ? 30 : 0)
             
             VStack(spacing: 64){
                 
                 HStack{
                     
                     Spacer()
-                    Image(systemName: "xmark")
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                        Image(systemName: "xmark")
                         .frame(width: 64)
                         .padding(.top,40)
                         .font(.title)
                         .foregroundColor(.white)
+                    }
                 }
                 
                 VStack(spacing: 460){
                     
                     VStack(spacing: 4){
                         
-                        Text("01/10")
+                        Text("Outdoor Exercise")
                             .font(.body)
                             .foregroundColor(Color("White50"))
                         
-                        Text("Toy Soldiers")
+                        Text("Walking")
                             .font(.title)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
@@ -87,6 +97,7 @@ struct WalkingExercise : View {
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                                
                             } else {
                                 
                                 VStack {
@@ -104,6 +115,7 @@ struct WalkingExercise : View {
                                     }
                                     
                                     HStack {
+                                        
                                         Image(systemName: "arrow.counterclockwise")
                                             .frame(width: 96)
                                             .font(.largeTitle)
@@ -123,16 +135,18 @@ struct WalkingExercise : View {
                                                     .font(.largeTitle)
                                                     .foregroundColor(.white)
                                             }
-                                            
                                         }
                                         
-                                        Image(systemName: "info.circle")
-                                            .frame(width: 96)
-                                            .font(.largeTitle)
-                                            .foregroundColor(.white)
+                                        Button(action: {
+                                            self.showFinish.toggle()
+                                        }) {
+                                            Image(systemName: "stop.fill")
+                                                .frame(width: 96)
+                                                .font(.largeTitle)
+                                                .foregroundColor(.white)
+                                        }
                                     }
                                 }
-                                
                             }
                         }
                             
@@ -146,24 +160,32 @@ struct WalkingExercise : View {
                         }
 
                         if (self.countDown == 0 && self.isPlayingTutorial) {
-                            self.countDown = 32
+                            self.countDown = -2
                             self.isPlayingTutorial = false
                             self.isInitialExercise = true
                             self.playExercise()
                         }
                         
-                        if self.countDown < 32 && self.isPlayingExercise {
-                            self.countDown -= 1
-                        }
-                        
-                        if self.countDown == 0 && self.isPlayingExercise {
-                            self.timer.upstream.connect().cancel()
-                            self.nextExercise = true
+                        if self.countDown > -2 && self.isPlayingExercise {
+                            self.countDown += 1
 
                         }
                     }
                 }
+                .blur(radius: showAlert ? 30 : 0)
+                .blur(radius: showFinish ? 30 : 0)
+                
                 Spacer()
+            }
+            .blur(radius: showAlert ? 30 : 0)
+            .blur(radius: showFinish ? 30 : 0)
+            
+            if showAlert {
+                customAlertView1(showAlert: $showAlert)
+            }
+            
+            if showFinish {
+                finishAlertView1(showFinish: $showFinish)
             }
         }
     }
@@ -193,7 +215,7 @@ struct WalkingExercise : View {
         
         if (isInitialExercise) {
             self.isInitialExercise = false
-            self.countDown -= 1
+            self.countDown += 1
         }
         
         self.isPlayingExercise = true
@@ -214,5 +236,101 @@ struct WalkingExercise : View {
 struct WalkingExercise_Previews: PreviewProvider {
     static var previews: some View {
         WalkingExercise()
+    }
+}
+
+struct customAlertView1 : View {
+    
+    @Binding var showAlert : Bool
+    var body: some View {
+        
+        ZStack {
+            
+            VStack {
+                
+                Text("Are you sure ?")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .foregroundColor(Color("Blue2"))
+                .padding(.bottom, 8)
+                .padding(.top, 32)
+                
+                Text("You still can exercise later")
+                .font(.subheadline)
+                .foregroundColor(Color("Blue2"))
+                
+                HStack{
+                    
+                    Text("Leave")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.red)
+                    .frame(width: 120, height: 64)
+                    .padding(.top, 8)
+                    
+                    Button(action: {
+                        self.showAlert.toggle()
+                    }) {
+                    Text("Cancel")
+                        .foregroundColor(.blue)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
+                }
+            }            
+        }
+        .frame(width: 280, height: 140)
+        .background(Color("White75"))
+        .cornerRadius(24)
+    }
+}
+
+struct finishAlertView1 : View {
+    
+    @Binding var showFinish : Bool
+    var body: some View {
+        
+        ZStack {
+            
+            VStack {
+                
+                Text("Are you sure to finish ?")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .foregroundColor(Color("Blue2"))
+                .padding(.bottom, 8)
+                .padding(.top, 32)
+                
+                Text("You've done great today")
+                .font(.subheadline)
+                .foregroundColor(Color("Blue2"))
+                
+                HStack{
+                    
+                    Text("Finish")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.red)
+                    .frame(width: 120, height: 64)
+                    .padding(.top, 8)
+                    
+                    Button(action: {
+                        self.showFinish.toggle()
+                    }) {
+                    Text("Cancel")
+                        .foregroundColor(.blue)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
+                }
+            }
+        }
+        .frame(width: 300, height: 140)
+        .background(Color("White75"))
+        .cornerRadius(24)
     }
 }

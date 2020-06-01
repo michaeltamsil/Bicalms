@@ -62,6 +62,20 @@
 		045F4E0A2484F0C400E7A118 /* RunningExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E092484F0C400E7A118 /* RunningExercise.swift */; };
 		045F4E0C2484F0D700E7A118 /* CyclingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */; };
 		045F4E0E2484F0E300E7A118 /* CyclingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */; };
+		04780A2824853EEB00478793 /* D2 - Goofy Jacks (left).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1A24853EEB00478793 /* D2 - Goofy Jacks (left).png */; };
+		04780A2924853EEB00478793 /* D5 - Curtsy Lunge (left).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1B24853EEB00478793 /* D5 - Curtsy Lunge (left).png */; };
+		04780A2A24853EEB00478793 /* D1 - Toy Soldiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1C24853EEB00478793 /* D1 - Toy Soldiers.png */; };
+		04780A2B24853EEB00478793 /* D7 - Lunge.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1D24853EEB00478793 /* D7 - Lunge.png */; };
+		04780A2C24853EEB00478793 /* D3 - Overhead Side Knees (left).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1E24853EEB00478793 /* D3 - Overhead Side Knees (left).png */; };
+		04780A2D24853EEB00478793 /* D6 - Mountain Walkers.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A1F24853EEB00478793 /* D6 - Mountain Walkers.png */; };
+		04780A2E24853EEB00478793 /* D8 - Pop Squats.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2024853EEB00478793 /* D8 - Pop Squats.png */; };
+		04780A2F24853EEB00478793 /* D5 - Curtsy Lunge (right).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2124853EEB00478793 /* D5 - Curtsy Lunge (right).png */; };
+		04780A3024853EEB00478793 /* D4 - Flying Fast Ups (left).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2224853EEB00478793 /* D4 - Flying Fast Ups (left).png */; };
+		04780A3124853EEB00478793 /* D9 - Burpees.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2324853EEB00478793 /* D9 - Burpees.png */; };
+		04780A3224853EEB00478793 /* D4 - Flying Fast Ups (right).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2424853EEB00478793 /* D4 - Flying Fast Ups (right).png */; };
+		04780A3324853EEB00478793 /* D3 - Overhead Side Knees (right).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2524853EEB00478793 /* D3 - Overhead Side Knees (right).png */; };
+		04780A3424853EEB00478793 /* D2 - Goofy Jacks (right).png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2624853EEB00478793 /* D2 - Goofy Jacks (right).png */; };
+		04780A3524853EEB00478793 /* D10 - Jumping Jacks.png in Resources */ = {isa = PBXBuildFile; fileRef = 04780A2724853EEB00478793 /* D10 - Jumping Jacks.png */; };
 		04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFC247CDD0C00949104 /* On Boarding 3.png */; };
 		04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFD247CDD0C00949104 /* On Boarding 2.png */; };
 		04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFE247CDD0C00949104 /* On Boarding 1.png */; };
@@ -158,6 +172,20 @@
 		045F4E092484F0C400E7A118 /* RunningExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningExercise.swift; sourceTree = "<group>"; };
 		045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingAnimation.swift; sourceTree = "<group>"; };
 		045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingExercise.swift; sourceTree = "<group>"; };
+		04780A1A24853EEB00478793 /* D2 - Goofy Jacks (left).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D2 - Goofy Jacks (left).png"; sourceTree = "<group>"; };
+		04780A1B24853EEB00478793 /* D5 - Curtsy Lunge (left).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D5 - Curtsy Lunge (left).png"; sourceTree = "<group>"; };
+		04780A1C24853EEB00478793 /* D1 - Toy Soldiers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D1 - Toy Soldiers.png"; sourceTree = "<group>"; };
+		04780A1D24853EEB00478793 /* D7 - Lunge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D7 - Lunge.png"; sourceTree = "<group>"; };
+		04780A1E24853EEB00478793 /* D3 - Overhead Side Knees (left).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D3 - Overhead Side Knees (left).png"; sourceTree = "<group>"; };
+		04780A1F24853EEB00478793 /* D6 - Mountain Walkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D6 - Mountain Walkers.png"; sourceTree = "<group>"; };
+		04780A2024853EEB00478793 /* D8 - Pop Squats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D8 - Pop Squats.png"; sourceTree = "<group>"; };
+		04780A2124853EEB00478793 /* D5 - Curtsy Lunge (right).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D5 - Curtsy Lunge (right).png"; sourceTree = "<group>"; };
+		04780A2224853EEB00478793 /* D4 - Flying Fast Ups (left).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D4 - Flying Fast Ups (left).png"; sourceTree = "<group>"; };
+		04780A2324853EEB00478793 /* D9 - Burpees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D9 - Burpees.png"; sourceTree = "<group>"; };
+		04780A2424853EEB00478793 /* D4 - Flying Fast Ups (right).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D4 - Flying Fast Ups (right).png"; sourceTree = "<group>"; };
+		04780A2524853EEB00478793 /* D3 - Overhead Side Knees (right).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D3 - Overhead Side Knees (right).png"; sourceTree = "<group>"; };
+		04780A2624853EEB00478793 /* D2 - Goofy Jacks (right).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D2 - Goofy Jacks (right).png"; sourceTree = "<group>"; };
+		04780A2724853EEB00478793 /* D10 - Jumping Jacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D10 - Jumping Jacks.png"; sourceTree = "<group>"; };
 		04CB4CFC247CDD0C00949104 /* On Boarding 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 3.png"; sourceTree = "<group>"; };
 		04CB4CFD247CDD0C00949104 /* On Boarding 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 2.png"; sourceTree = "<group>"; };
 		04CB4CFE247CDD0C00949104 /* On Boarding 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 1.png"; sourceTree = "<group>"; };
@@ -244,11 +272,18 @@
 			path = "Outdoor Animation";
 			sourceTree = "<group>";
 		};
-		045F4DC42484BC5E00E7A118 /* Indoor */ = {
+		042CC87D2485773000B462F5 /* Trial-Percobaan */ = {
 			isa = PBXGroup;
 			children = (
 				045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */,
 				045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */,
+			);
+			path = "Trial-Percobaan";
+			sourceTree = "<group>";
+		};
+		045F4DC42484BC5E00E7A118 /* Indoor */ = {
+			isa = PBXGroup;
+			children = (
 				043B9AE02484063200914170 /* IndoorAnimation1.swift */,
 				043B9AE2248408A100914170 /* IndoorExercise1.swift */,
 				045F4DC92484BF6B00E7A118 /* IndoorAnimation2A.swift */,
@@ -296,9 +331,31 @@
 			path = Outdoor;
 			sourceTree = "<group>";
 		};
+		04780A3624853EFC00478793 /* Icon for Detail Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				04780A1C24853EEB00478793 /* D1 - Toy Soldiers.png */,
+				04780A1A24853EEB00478793 /* D2 - Goofy Jacks (left).png */,
+				04780A2624853EEB00478793 /* D2 - Goofy Jacks (right).png */,
+				04780A1E24853EEB00478793 /* D3 - Overhead Side Knees (left).png */,
+				04780A2524853EEB00478793 /* D3 - Overhead Side Knees (right).png */,
+				04780A2224853EEB00478793 /* D4 - Flying Fast Ups (left).png */,
+				04780A2424853EEB00478793 /* D4 - Flying Fast Ups (right).png */,
+				04780A1B24853EEB00478793 /* D5 - Curtsy Lunge (left).png */,
+				04780A2124853EEB00478793 /* D5 - Curtsy Lunge (right).png */,
+				04780A1F24853EEB00478793 /* D6 - Mountain Walkers.png */,
+				04780A1D24853EEB00478793 /* D7 - Lunge.png */,
+				04780A2024853EEB00478793 /* D8 - Pop Squats.png */,
+				04780A2324853EEB00478793 /* D9 - Burpees.png */,
+				04780A2724853EEB00478793 /* D10 - Jumping Jacks.png */,
+			);
+			path = "Icon for Detail Exercise";
+			sourceTree = "<group>";
+		};
 		3137913B246B1B6600FDC13E /* Image and Video */ = {
 			isa = PBXGroup;
 			children = (
+				04780A3624853EFC00478793 /* Icon for Detail Exercise */,
 				041FFC762481180A000B9E5E /* Outdoor Animation */,
 				041FFC74248117E4000B9E5E /* Indoor Animation */,
 				A974484C247CF947001FFFC7 /* icon */,
@@ -361,6 +418,7 @@
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
 				045F4DFE2484D99800E7A118 /* Outdoor */,
 				045F4DC42484BC5E00E7A118 /* Indoor */,
+				042CC87D2485773000B462F5 /* Trial-Percobaan */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
 				A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */,
@@ -437,16 +495,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E2DC7B247ED3BF001FD0FB /* Walking Animation.mp4 in Resources */,
+				04780A2924853EEB00478793 /* D5 - Curtsy Lunge (left).png in Resources */,
 				041FFC6F248117D6000B9E5E /* D4 - Flying Fast Ups (right).mp4 in Resources */,
+				04780A2A24853EEB00478793 /* D1 - Toy Soldiers.png in Resources */,
 				31379142246B1BB300FDC13E /* Indoor4.png in Resources */,
 				31379141246B1BB300FDC13E /* Indoor3.png in Resources */,
 				A94C7FBC247E2FA3002DBFDF /* ProgressPlan.storyboard in Resources */,
+				04780A2C24853EEB00478793 /* D3 - Overhead Side Knees (left).png in Resources */,
 				04E2DC75247ED3BF001FD0FB /* Jogging Animation.mp4 in Resources */,
+				04780A3124853EEB00478793 /* D9 - Burpees.png in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				041FFC6C248117D6000B9E5E /* D3 - Overhead Side Knees (left).mp4 in Resources */,
 				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
+				04780A2E24853EEB00478793 /* D8 - Pop Squats.png in Resources */,
 				041FFC70248117D6000B9E5E /* D6 - Mountain Walkers.mp4 in Resources */,
+				04780A3524853EEB00478793 /* D10 - Jumping Jacks.png in Resources */,
 				04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */,
 				A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */,
 				A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */,
@@ -459,7 +523,9 @@
 				A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */,
 				041FFC67248117D6000B9E5E /* D3 - Overhead Side Knees (right).mp4 in Resources */,
 				3137914F246B291000FDC13E /* Walking.png in Resources */,
+				04780A3324853EEB00478793 /* D3 - Overhead Side Knees (right).png in Resources */,
 				31FBF0D92484536300305C65 /* SetPlan.storyboard in Resources */,
+				04780A2D24853EEB00478793 /* D6 - Mountain Walkers.png in Resources */,
 				04CB4D01247CDD0D00949104 /* On Boarding 1.png in Resources */,
 				041FFC66248117D6000B9E5E /* D5 - Curtsy Lunge (left).mp4 in Resources */,
 				04EEF2F82485232400297DEA /* OutdoorExcercise.storyboard in Resources */,
@@ -469,8 +535,13 @@
 				041FFC6A248117D6000B9E5E /* D2 - Goofy Jacks (left).mp4 in Resources */,
 				041FFC69248117D6000B9E5E /* D2 - Goofy Jacks (right).mp4 in Resources */,
 				041FFC71248117D6000B9E5E /* D1 - Toy Soldiers.mp4 in Resources */,
+				04780A2824853EEB00478793 /* D2 - Goofy Jacks (left).png in Resources */,
+				04780A3424853EEB00478793 /* D2 - Goofy Jacks (right).png in Resources */,
+				04780A2F24853EEB00478793 /* D5 - Curtsy Lunge (right).png in Resources */,
 				A974484D247CF947001FFFC7 /* icon in Resources */,
 				04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */,
+				04780A2B24853EEB00478793 /* D7 - Lunge.png in Resources */,
+				04780A3224853EEB00478793 /* D4 - Flying Fast Ups (right).png in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
 				04E2DC7D247ED3BF001FD0FB /* Bike Animation.mp4 in Resources */,
 				041FFC6D248117D6000B9E5E /* D4 - Flying Fast Ups (left).mp4 in Resources */,
@@ -478,6 +549,7 @@
 				042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */,
 				0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */,
 				49BB6086247CEAA000D156EE /* OnBoarding.storyboard in Resources */,
+				04780A3024853EEB00478793 /* D4 - Flying Fast Ups (left).png in Resources */,
 				041FFC73248117D6000B9E5E /* D8 - Pop Squats.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
