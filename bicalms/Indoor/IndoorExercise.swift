@@ -13,10 +13,11 @@ import AVFoundation
 struct IndoorExercise : View {
     
     @State var timer = Timer.publish (every: 1, on: .current, in: .common).autoconnect()
-    @State private var countDown = 31
+    @State private var countDown = 4
     @State private var show = true
     @State private var running = true
     @State private var isPlaying = false
+   
     
     var body: some View {
 
@@ -77,6 +78,7 @@ struct IndoorExercise : View {
                                 Button(action: {
                                     self.play()
                                 }) {
+                              
                                     Image(systemName: "play.fill")
                                         .frame(width: 96)
                                         .font(.largeTitle)
@@ -139,13 +141,16 @@ struct IndoorExercise : View {
                             // We don't need it when we start off
                             self.timer.upstream.connect().cancel()
                         }
+                        
+                        
+                        if self.countDown == 0 {
+                             self.timer.upstream.connect().cancel()
+                        }
+                        
                         if self.countDown < 31 {
                             self.countDown -= 1
                         }
-                        
-                        if self.countDown == 0 {
-                            
-                        }
+                        print("self.countdown, \(self.countDown)")
                     }
                 }
                 Spacer()
@@ -162,14 +167,17 @@ struct IndoorExercise : View {
         }
         
         self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
+        print("play")
     }
     
     func pause() {
+        print("pause()")
         self.timer.upstream.connect().cancel()
         self.running = true
     }
     
     func playOrPause() {
+        print("playorPause()")
         if (isPlaying) {
             self.timer.upstream.connect().cancel()
             self.isPlaying = false
