@@ -90,6 +90,7 @@ struct IndoorExercise2B : View {
                             } else {
                                 
                                 VStack {
+                                    
                                     Text("\(countDown)")
                                         .frame(width: 96, height: 48)
                                         .font(.title)
@@ -103,10 +104,15 @@ struct IndoorExercise2B : View {
                                     }
                                     
                                     HStack {
+                                        
+                                        Button(action: {
+                                            self.resetExercise()
+                                        }) {
                                         Image(systemName: "arrow.counterclockwise")
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
+                                        }
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -206,6 +212,18 @@ struct IndoorExercise2B : View {
             self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
             self.isPlaying = true
         }
+    }
+    
+    func resetExercise() {
+        self.isInitialTutorial = true
+        self.isPlayingTutorial = false
+        self.isInitialExercise = false
+        self.isPlayingExercise = false
+        self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
+        self.countDown = 4
+        self.progressColor3 = "Blue3"
+        self.progressColor4 = "Blue4"
+        self.isPlaying = false
     }
 }
 

@@ -105,11 +105,16 @@ struct IndoorExercise1 : View {
                                     }
                                     
                                     HStack {
+                                        
+                                        Button(action: {
+                                            self.resetExercise()
+                                        }) {
                                         Image(systemName: "arrow.counterclockwise")
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
-                                        
+                                        }
+                                            
                                         Button(action: {
                                             self.playOrPause()
                                         }) {
@@ -136,22 +141,22 @@ struct IndoorExercise1 : View {
                         }
                             
                      .onReceive(timer) { (output) in
-                        if self.countDown > 9 && self.isPlayingTutorial {
+                        if self.countDown > 4 && self.isPlayingTutorial {
                             self.timer.upstream.connect().cancel()
                         }
                         
-                        if self.countDown < 9 && self.isPlayingTutorial {
+                        if self.countDown < 4 && self.isPlayingTutorial {
                             self.countDown -= 1
                         }
 
                         if (self.countDown == 0 && self.isPlayingTutorial) {
-                            self.countDown = 3
+                            self.countDown = 32
                             self.isPlayingTutorial = false
                             self.isInitialExercise = true
                             self.playExercise()
                         }
                         
-                        if self.countDown < 3 && self.isPlayingExercise {
+                        if self.countDown < 32 && self.isPlayingExercise {
                             self.countDown -= 1
                         }
                         
@@ -207,7 +212,20 @@ struct IndoorExercise1 : View {
             self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
             self.isPlaying = true
         }
-    }  
+    }
+    
+    func resetExercise() {
+        self.isInitialTutorial = true
+        self.isPlayingTutorial = false
+        self.isInitialExercise = false
+        self.isPlayingExercise = false
+        self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
+        self.countDown = 4
+        self.progressColor3 = "Blue3"
+        self.progressColor4 = "Blue4"
+        self.isPlaying = false
+    
+    }
 }
 
 struct IndoorExercise1_Previews: PreviewProvider {
