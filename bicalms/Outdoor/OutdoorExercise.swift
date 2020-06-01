@@ -12,10 +12,8 @@ import AVFoundation
 
 struct OutdoorExrecise : View {
     
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    let targetCount = 100
-    
-    @State private var counter = 0
+    @State var timer = Timer.publish (every: 1, on: .current, in: .common).autoconnect()
+    @State private var countUp = -1
     @State private var show = true
     @State private var running = true
     
@@ -66,33 +64,66 @@ struct OutdoorExrecise : View {
                     }
                     
                     HStack{
-                        
-                        Image(systemName: "arrow.counterclockwise")
+
+                        if (running) {
+                            Image(systemName: "arrow.counterclockwise")
                             .frame(width: 96)
                             .font(.largeTitle)
                             .foregroundColor(.white)
-                        
-                        Text("\(counter)")
+                            
+                            Button(action: {
+                                self.play()
+                            }) {
+                                Image(systemName: "play.fill")
+                                    .frame(width: 96)
+                                    .font(.largeTitle)
+                                    .foregroundColor(.white)   
+                            }
+                            
+                            Image(systemName: "info.circle")
+                                    .frame(width: 96)
+                                    .font(.largeTitle)
+                                    .foregroundColor(.white)
+
+                        } else {
+                            Text("\(countUp)")
                             .frame(width: 96)
                             .font(.largeTitle)
                             .foregroundColor(.white)
-                        
-                    //  Image(systemName: "play.fill")
-                    //      .frame(width: 96)
-                    //      .font(.largeTitle)
-                    //      .foregroundColor(.white)
-                        
-                        Image(systemName: "info.circle")
-                            .frame(width: 96)
-                            .font(.largeTitle)
-                            .foregroundColor(.white)
-                        
-                    }.onReceive(timer){(output) in
-                        self.counter += 1}
+                            .onTapGesture() {
+                                self.pause()
+                            }
+                            
+                        }
+                    }
+                     .onReceive(timer) { (output) in
+                        if self.countUp < -1 {
+                            // We don't need it when we start off
+                            self.timer.upstream.connect().cancel()
+                        }
+                        if self.countUp > -1 {
+                            self.countUp += 1
+                        }
+                    }
                 }
                 Spacer()
             }
         }
+    }
+    
+    func play() {
+        self.running = false
+        if (show) {
+            self.countUp += 1
+            self.show = false
+        }
+        
+        self.timer = Timer.publish(every: 1, on: .current, in: .common).autoconnect()
+    }
+    
+    func pause() {
+        self.timer.upstream.connect().cancel()
+        self.running = true
     }
 }
 

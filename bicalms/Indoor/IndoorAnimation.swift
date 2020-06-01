@@ -12,15 +12,16 @@ import AVFoundation
 struct IndoorAnimation: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIView {
-        return PlayerUIViewIndoor(frame: .zero)
+        return QueuePlayerUIViewIndoor(frame: .zero)
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
     }
 }
 
-class PlayerUIViewIndoor: UIView {
-    private var playerLayer = AVPlayerLayer()
+class QueuePlayerUIViewIndoor: UIView {
+    public var playerLayer = AVPlayerLayer()
+    public var playerLooper: AVPlayerLooper?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,10 +31,13 @@ class PlayerUIViewIndoor: UIView {
         let playerItem = AVPlayerItem(url: fileUrl)
         
         // Setup Video
-        let player = AVPlayer(playerItem: playerItem)
+        let player = AVQueuePlayer(playerItem: playerItem)
         playerLayer.player = player
         playerLayer.videoGravity = .resizeAspectFill
         layer.addSublayer(playerLayer)
+        
+        // Looping Video
+        playerLooper = AVPlayerLooper(player: player, templateItem: playerItem)
         
         // Play
         player.play()

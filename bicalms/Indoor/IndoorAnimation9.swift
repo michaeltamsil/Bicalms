@@ -1,33 +1,35 @@
 //
-//  RunningVideo.swift
+//  IndoorAnimation9.swift
 //  bicalms
 //
-//  Created by Eko Cahyo on 26/05/20.
+//  Created by Eko Cahyo on 01/06/20.
 //  Copyright © 2020 michael tamsil. All rights reserved.
 //
 
 import SwiftUI
 import AVFoundation
 
-struct OutdoorAnimation: UIViewRepresentable {
+struct IndoorAnimation9: UIViewRepresentable {
+    var videoUrl: String?
     
     func makeUIView(context: Context) -> UIView {
-        return QueuePlayerUIViewOutdoor(frame: .zero)
+    return QueuePlayerUIViewIndoor9(frame: .zero)
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
     }
 }
 
-class QueuePlayerUIViewOutdoor: UIView {
+class QueuePlayerUIViewIndoor9: UIView {
+    
     public var playerLayer = AVPlayerLayer()
     public var playerLooper: AVPlayerLooper?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-
+        
         // Load video
-        let fileUrl = Bundle.main.url(forResource: "Run Animation", withExtension: "mp4")!
+        let fileUrl = Bundle.main.url(forResource: "D9 - Burpees", withExtension: "mp4")!
         let playerItem = AVPlayerItem(url: fileUrl)
         
         // Setup Video
@@ -54,8 +56,8 @@ class QueuePlayerUIViewOutdoor: UIView {
     }
 }
 
-struct OutdoorAnimation_Previews: PreviewProvider {
+struct IndoorAnimation9_Previews: PreviewProvider {
     static var previews: some View {
-        OutdoorAnimation()
+        IndoorAnimation9()
     }
 }

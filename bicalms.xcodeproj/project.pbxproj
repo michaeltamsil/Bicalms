@@ -23,6 +23,45 @@
 		041FFC73248117D6000B9E5E /* D8 - Pop Squats.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041FFC65248117D6000B9E5E /* D8 - Pop Squats.mp4 */; };
 		0423CB592477CF43009659C2 /* Run Animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0423CB582477CF43009659C2 /* Run Animation.mp4 */; };
 		042B6BBC247B763E00FF7F57 /* Bicalms Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */; };
+		043665DD24838EB00048A640 /* CircularTimer30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043665DC24838EB00048A640 /* CircularTimer30.swift */; };
+		043B9AE12484063200914170 /* IndoorAnimation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B9AE02484063200914170 /* IndoorAnimation1.swift */; };
+		043B9AE3248408A100914170 /* IndoorExercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B9AE2248408A100914170 /* IndoorExercise1.swift */; };
+		045F4DC62484BC8400E7A118 /* IndoorAnimationTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */; };
+		045F4DC82484BCD900E7A118 /* IndoorExerciseTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */; };
+		045F4DCA2484BF6B00E7A118 /* IndoorAnimation2A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DC92484BF6B00E7A118 /* IndoorAnimation2A.swift */; };
+		045F4DCC2484BF7A00E7A118 /* IndoorExercise2A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DCB2484BF7A00E7A118 /* IndoorExercise2A.swift */; };
+		045F4DCE2484C14800E7A118 /* IndoorAnimation2B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DCD2484C14800E7A118 /* IndoorAnimation2B.swift */; };
+		045F4DD02484C1D000E7A118 /* IndoorExercise2B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DCF2484C1D000E7A118 /* IndoorExercise2B.swift */; };
+		045F4DD22484C30900E7A118 /* IndoorAnimation3A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DD12484C30900E7A118 /* IndoorAnimation3A.swift */; };
+		045F4DD42484C35D00E7A118 /* IndoorExercise3A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DD32484C35D00E7A118 /* IndoorExercise3A.swift */; };
+		045F4DD62484C3FD00E7A118 /* IndoorAnimation3B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DD52484C3FD00E7A118 /* IndoorAnimation3B.swift */; };
+		045F4DD82484C41100E7A118 /* IndoorExercise3B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DD72484C41100E7A118 /* IndoorExercise3B.swift */; };
+		045F4DDA2484C7B700E7A118 /* IndoorAnimation4A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DD92484C7B700E7A118 /* IndoorAnimation4A.swift */; };
+		045F4DDC2484C7CC00E7A118 /* IndoorExercise4A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DDB2484C7CC00E7A118 /* IndoorExercise4A.swift */; };
+		045F4DDE2484C8A800E7A118 /* IndoorAnimation4B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DDD2484C8A800E7A118 /* IndoorAnimation4B.swift */; };
+		045F4DE02484C8B700E7A118 /* IndoorExercise4B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DDF2484C8B700E7A118 /* IndoorExercise4B.swift */; };
+		045F4DE22484C9BD00E7A118 /* IndoorAnimation5A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DE12484C9BD00E7A118 /* IndoorAnimation5A.swift */; };
+		045F4DE42484C9CE00E7A118 /* IndoorExercise5A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DE32484C9CE00E7A118 /* IndoorExercise5A.swift */; };
+		045F4DE62484CA7E00E7A118 /* IndoorAnimation5B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DE52484CA7E00E7A118 /* IndoorAnimation5B.swift */; };
+		045F4DE92484CA9600E7A118 /* IndoorExercise5B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DE82484CA9600E7A118 /* IndoorExercise5B.swift */; };
+		045F4DEB2484CBF500E7A118 /* IndoorAnimation6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DEA2484CBF500E7A118 /* IndoorAnimation6.swift */; };
+		045F4DED2484CC1000E7A118 /* IndoorExercise6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DEC2484CC1000E7A118 /* IndoorExercise6.swift */; };
+		045F4DEF2484D6B000E7A118 /* IndoorAnimation7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DEE2484D6B000E7A118 /* IndoorAnimation7.swift */; };
+		045F4DF12484D6BC00E7A118 /* IndoorExercise7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DF02484D6BC00E7A118 /* IndoorExercise7.swift */; };
+		045F4DF32484D71800E7A118 /* IndoorAnimation8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DF22484D71800E7A118 /* IndoorAnimation8.swift */; };
+		045F4DF52484D72800E7A118 /* IndoorExercise8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DF42484D72800E7A118 /* IndoorExercise8.swift */; };
+		045F4DF72484D7D700E7A118 /* IndoorAnimation9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DF62484D7D700E7A118 /* IndoorAnimation9.swift */; };
+		045F4DF92484D7E500E7A118 /* IndoorExercise9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DF82484D7E500E7A118 /* IndoorExercise9.swift */; };
+		045F4DFB2484D8B600E7A118 /* IndoorAnimation10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DFA2484D8B600E7A118 /* IndoorAnimation10.swift */; };
+		045F4DFD2484D8C000E7A118 /* IndoorExercise10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DFC2484D8C000E7A118 /* IndoorExercise10.swift */; };
+		045F4E002484F06600E7A118 /* WalkingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4DFF2484F06600E7A118 /* WalkingExercise.swift */; };
+		045F4E022484F07800E7A118 /* WalkingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E012484F07800E7A118 /* WalkingAnimation.swift */; };
+		045F4E042484F09600E7A118 /* JoggingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E032484F09600E7A118 /* JoggingAnimation.swift */; };
+		045F4E062484F0A600E7A118 /* JoggingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E052484F0A600E7A118 /* JoggingExercise.swift */; };
+		045F4E082484F0B500E7A118 /* RunningAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E072484F0B500E7A118 /* RunningAnimation.swift */; };
+		045F4E0A2484F0C400E7A118 /* RunningExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E092484F0C400E7A118 /* RunningExercise.swift */; };
+		045F4E0C2484F0D700E7A118 /* CyclingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */; };
+		045F4E0E2484F0E300E7A118 /* CyclingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */; };
 		04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4CFA247CB15100949104 /* OutdoorExercise.swift */; };
 		04CB4CFF247CDD0D00949104 /* On Boarding 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFC247CDD0C00949104 /* On Boarding 3.png */; };
 		04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CB4CFD247CDD0C00949104 /* On Boarding 2.png */; };
@@ -80,6 +119,45 @@
 		041FFC65248117D6000B9E5E /* D8 - Pop Squats.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D8 - Pop Squats.mp4"; sourceTree = "<group>"; };
 		0423CB582477CF43009659C2 /* Run Animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Run Animation.mp4"; sourceTree = "<group>"; };
 		042B6BBB247B763E00FF7F57 /* Bicalms Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bicalms Icon.png"; sourceTree = "<group>"; };
+		043665DC24838EB00048A640 /* CircularTimer30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimer30.swift; sourceTree = "<group>"; };
+		043B9AE02484063200914170 /* IndoorAnimation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation1.swift; sourceTree = "<group>"; };
+		043B9AE2248408A100914170 /* IndoorExercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise1.swift; sourceTree = "<group>"; };
+		045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimationTrial.swift; sourceTree = "<group>"; };
+		045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExerciseTrial.swift; sourceTree = "<group>"; };
+		045F4DC92484BF6B00E7A118 /* IndoorAnimation2A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation2A.swift; sourceTree = "<group>"; };
+		045F4DCB2484BF7A00E7A118 /* IndoorExercise2A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise2A.swift; sourceTree = "<group>"; };
+		045F4DCD2484C14800E7A118 /* IndoorAnimation2B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation2B.swift; sourceTree = "<group>"; };
+		045F4DCF2484C1D000E7A118 /* IndoorExercise2B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise2B.swift; sourceTree = "<group>"; };
+		045F4DD12484C30900E7A118 /* IndoorAnimation3A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation3A.swift; sourceTree = "<group>"; };
+		045F4DD32484C35D00E7A118 /* IndoorExercise3A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise3A.swift; sourceTree = "<group>"; };
+		045F4DD52484C3FD00E7A118 /* IndoorAnimation3B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation3B.swift; sourceTree = "<group>"; };
+		045F4DD72484C41100E7A118 /* IndoorExercise3B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise3B.swift; sourceTree = "<group>"; };
+		045F4DD92484C7B700E7A118 /* IndoorAnimation4A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation4A.swift; sourceTree = "<group>"; };
+		045F4DDB2484C7CC00E7A118 /* IndoorExercise4A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise4A.swift; sourceTree = "<group>"; };
+		045F4DDD2484C8A800E7A118 /* IndoorAnimation4B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation4B.swift; sourceTree = "<group>"; };
+		045F4DDF2484C8B700E7A118 /* IndoorExercise4B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise4B.swift; sourceTree = "<group>"; };
+		045F4DE12484C9BD00E7A118 /* IndoorAnimation5A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation5A.swift; sourceTree = "<group>"; };
+		045F4DE32484C9CE00E7A118 /* IndoorExercise5A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise5A.swift; sourceTree = "<group>"; };
+		045F4DE52484CA7E00E7A118 /* IndoorAnimation5B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation5B.swift; sourceTree = "<group>"; };
+		045F4DE82484CA9600E7A118 /* IndoorExercise5B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise5B.swift; sourceTree = "<group>"; };
+		045F4DEA2484CBF500E7A118 /* IndoorAnimation6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation6.swift; sourceTree = "<group>"; };
+		045F4DEC2484CC1000E7A118 /* IndoorExercise6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise6.swift; sourceTree = "<group>"; };
+		045F4DEE2484D6B000E7A118 /* IndoorAnimation7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation7.swift; sourceTree = "<group>"; };
+		045F4DF02484D6BC00E7A118 /* IndoorExercise7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise7.swift; sourceTree = "<group>"; };
+		045F4DF22484D71800E7A118 /* IndoorAnimation8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation8.swift; sourceTree = "<group>"; };
+		045F4DF42484D72800E7A118 /* IndoorExercise8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise8.swift; sourceTree = "<group>"; };
+		045F4DF62484D7D700E7A118 /* IndoorAnimation9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation9.swift; sourceTree = "<group>"; };
+		045F4DF82484D7E500E7A118 /* IndoorExercise9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise9.swift; sourceTree = "<group>"; };
+		045F4DFA2484D8B600E7A118 /* IndoorAnimation10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAnimation10.swift; sourceTree = "<group>"; };
+		045F4DFC2484D8C000E7A118 /* IndoorExercise10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorExercise10.swift; sourceTree = "<group>"; };
+		045F4DFF2484F06600E7A118 /* WalkingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingExercise.swift; sourceTree = "<group>"; };
+		045F4E012484F07800E7A118 /* WalkingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingAnimation.swift; sourceTree = "<group>"; };
+		045F4E032484F09600E7A118 /* JoggingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoggingAnimation.swift; sourceTree = "<group>"; };
+		045F4E052484F0A600E7A118 /* JoggingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoggingExercise.swift; sourceTree = "<group>"; };
+		045F4E072484F0B500E7A118 /* RunningAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningAnimation.swift; sourceTree = "<group>"; };
+		045F4E092484F0C400E7A118 /* RunningExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningExercise.swift; sourceTree = "<group>"; };
+		045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingAnimation.swift; sourceTree = "<group>"; };
+		045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingExercise.swift; sourceTree = "<group>"; };
 		04CB4CFA247CB15100949104 /* OutdoorExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
 		04CB4CFC247CDD0C00949104 /* On Boarding 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 3.png"; sourceTree = "<group>"; };
 		04CB4CFD247CDD0C00949104 /* On Boarding 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Boarding 2.png"; sourceTree = "<group>"; };
@@ -166,6 +244,64 @@
 			path = "Outdoor Animation";
 			sourceTree = "<group>";
 		};
+		045F4DC42484BC5E00E7A118 /* Indoor */ = {
+			isa = PBXGroup;
+			children = (
+				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
+				04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */,
+				04CB4D02247CDDAA00949104 /* IndoorExercise.swift */,
+				045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */,
+				045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */,
+				043B9AE02484063200914170 /* IndoorAnimation1.swift */,
+				043B9AE2248408A100914170 /* IndoorExercise1.swift */,
+				045F4DC92484BF6B00E7A118 /* IndoorAnimation2A.swift */,
+				045F4DCB2484BF7A00E7A118 /* IndoorExercise2A.swift */,
+				045F4DCD2484C14800E7A118 /* IndoorAnimation2B.swift */,
+				045F4DCF2484C1D000E7A118 /* IndoorExercise2B.swift */,
+				045F4DD12484C30900E7A118 /* IndoorAnimation3A.swift */,
+				045F4DD32484C35D00E7A118 /* IndoorExercise3A.swift */,
+				045F4DD52484C3FD00E7A118 /* IndoorAnimation3B.swift */,
+				045F4DD72484C41100E7A118 /* IndoorExercise3B.swift */,
+				045F4DD92484C7B700E7A118 /* IndoorAnimation4A.swift */,
+				045F4DDB2484C7CC00E7A118 /* IndoorExercise4A.swift */,
+				045F4DDD2484C8A800E7A118 /* IndoorAnimation4B.swift */,
+				045F4DDF2484C8B700E7A118 /* IndoorExercise4B.swift */,
+				045F4DE12484C9BD00E7A118 /* IndoorAnimation5A.swift */,
+				045F4DE32484C9CE00E7A118 /* IndoorExercise5A.swift */,
+				045F4DE52484CA7E00E7A118 /* IndoorAnimation5B.swift */,
+				045F4DE82484CA9600E7A118 /* IndoorExercise5B.swift */,
+				045F4DEA2484CBF500E7A118 /* IndoorAnimation6.swift */,
+				045F4DEC2484CC1000E7A118 /* IndoorExercise6.swift */,
+				045F4DEE2484D6B000E7A118 /* IndoorAnimation7.swift */,
+				045F4DF02484D6BC00E7A118 /* IndoorExercise7.swift */,
+				045F4DF22484D71800E7A118 /* IndoorAnimation8.swift */,
+				045F4DF42484D72800E7A118 /* IndoorExercise8.swift */,
+				045F4DF62484D7D700E7A118 /* IndoorAnimation9.swift */,
+				045F4DF82484D7E500E7A118 /* IndoorExercise9.swift */,
+				045F4DFA2484D8B600E7A118 /* IndoorAnimation10.swift */,
+				045F4DFC2484D8C000E7A118 /* IndoorExercise10.swift */,
+			);
+			path = Indoor;
+			sourceTree = "<group>";
+		};
+		045F4DFE2484D99800E7A118 /* Outdoor */ = {
+			isa = PBXGroup;
+			children = (
+				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
+				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
+				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
+				045F4E012484F07800E7A118 /* WalkingAnimation.swift */,
+				045F4DFF2484F06600E7A118 /* WalkingExercise.swift */,
+				045F4E032484F09600E7A118 /* JoggingAnimation.swift */,
+				045F4E052484F0A600E7A118 /* JoggingExercise.swift */,
+				045F4E072484F0B500E7A118 /* RunningAnimation.swift */,
+				045F4E092484F0C400E7A118 /* RunningExercise.swift */,
+				045F4E0B2484F0D700E7A118 /* CyclingAnimation.swift */,
+				045F4E0D2484F0E300E7A118 /* CyclingExercise.swift */,
+			);
+			path = Outdoor;
+			sourceTree = "<group>";
+		};
 		3137913B246B1B6600FDC13E /* Image and Video */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,16 +356,11 @@
 				49BB6085247CEAA000D156EE /* OnBoarding.storyboard */,
 				49BB6FF9247F98DB009BED84 /* OnBoarding.swift */,
 				A9DF4932247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard */,
-				A96B5F7F24695B8A00D17199 /* IndoorExercise.storyboard */,
-				04CB4D02247CDDAA00949104 /* IndoorExercise.swift */,
-				04E2DC64247ECD9E001FD0FB /* IndoorAnimation.swift */,
-				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
-				A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */,
-				A96B5F8124695BA200D17199 /* OutdoorExcercise.storyboard */,
-				04CB4CFA247CB15100949104 /* OutdoorExercise.swift */,
-				04CB4D04247D453500949104 /* OutdoorAnimation.swift */,
 				A92958DE247E17B400355C9A /* SetPlan.storyboard */,
+				A94C7FBB247E2FA3002DBFDF /* ProgressPlan.storyboard */,
 				A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */,
+				045F4DFE2484D99800E7A118 /* Outdoor */,
+				045F4DC42484BC5E00E7A118 /* Indoor */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
 				A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */,
@@ -242,6 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				A974484F247D2A6D001FFFC7 /* RoundButton.swift */,
+				043665DC24838EB00048A640 /* CircularTimer30.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -317,8 +449,6 @@
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
 				041FFC70248117D6000B9E5E /* D6 - Mountain Walkers.mp4 in Resources */,
 				04CB4D00247CDD0D00949104 /* On Boarding 2.png in Resources */,
-				04E2DC77247ED3BF001FD0FB /* D2 right.mp4 in Resources */,
-				04E2DC7A247ED3BF001FD0FB /* D2 left.mp4 in Resources */,
 				A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */,
 				A9DF4933247BF58E00189CE5 /* ChooseExcerciseDetail.storyboard in Resources */,
 				041FFC6E248117D6000B9E5E /* D9 - Burpees.mp4 in Resources */,
@@ -359,20 +489,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045F4DC82484BCD900E7A118 /* IndoorExerciseTrial.swift in Sources */,
 				A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */,
 				04CB4CFB247CB15100949104 /* OutdoorExercise.swift in Sources */,
 				04E2DC65247ECD9E001FD0FB /* IndoorAnimation.swift in Sources */,
+				045F4DD42484C35D00E7A118 /* IndoorExercise3A.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
+				045F4E042484F09600E7A118 /* JoggingAnimation.swift in Sources */,
+				045F4DF12484D6BC00E7A118 /* IndoorExercise7.swift in Sources */,
+				045F4DDA2484C7B700E7A118 /* IndoorAnimation4A.swift in Sources */,
+				043665DD24838EB00048A640 /* CircularTimer30.swift in Sources */,
+				045F4DD02484C1D000E7A118 /* IndoorExercise2B.swift in Sources */,
+				045F4E062484F0A600E7A118 /* JoggingExercise.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
+				045F4DCA2484BF6B00E7A118 /* IndoorAnimation2A.swift in Sources */,
+				045F4DD22484C30900E7A118 /* IndoorAnimation3A.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
+				045F4DCC2484BF7A00E7A118 /* IndoorExercise2A.swift in Sources */,
+				043B9AE3248408A100914170 /* IndoorExercise1.swift in Sources */,
+				045F4E0A2484F0C400E7A118 /* RunningExercise.swift in Sources */,
+				045F4DF52484D72800E7A118 /* IndoorExercise8.swift in Sources */,
+				045F4DEF2484D6B000E7A118 /* IndoorAnimation7.swift in Sources */,
+				045F4DED2484CC1000E7A118 /* IndoorExercise6.swift in Sources */,
+				045F4DE92484CA9600E7A118 /* IndoorExercise5B.swift in Sources */,
+				045F4DD62484C3FD00E7A118 /* IndoorAnimation3B.swift in Sources */,
+				045F4DE02484C8B700E7A118 /* IndoorExercise4B.swift in Sources */,
+				045F4DFB2484D8B600E7A118 /* IndoorAnimation10.swift in Sources */,
+				045F4E0C2484F0D700E7A118 /* CyclingAnimation.swift in Sources */,
 				49BB6FFA247F98DB009BED84 /* OnBoarding.swift in Sources */,
+				043B9AE12484063200914170 /* IndoorAnimation1.swift in Sources */,
+				045F4DE22484C9BD00E7A118 /* IndoorAnimation5A.swift in Sources */,
+				045F4DDC2484C7CC00E7A118 /* IndoorExercise4A.swift in Sources */,
+				045F4DFD2484D8C000E7A118 /* IndoorExercise10.swift in Sources */,
+				045F4E082484F0B500E7A118 /* RunningAnimation.swift in Sources */,
+				045F4DE42484C9CE00E7A118 /* IndoorExercise5A.swift in Sources */,
+				045F4E002484F06600E7A118 /* WalkingExercise.swift in Sources */,
 				04CB4D05247D453500949104 /* OutdoorAnimation.swift in Sources */,
 				04CB4D03247CDDAA00949104 /* IndoorExercise.swift in Sources */,
+				045F4DF92484D7E500E7A118 /* IndoorExercise9.swift in Sources */,
+				045F4DF72484D7D700E7A118 /* IndoorAnimation9.swift in Sources */,
+				045F4DF32484D71800E7A118 /* IndoorAnimation8.swift in Sources */,
+				045F4E022484F07800E7A118 /* WalkingAnimation.swift in Sources */,
+				045F4DE62484CA7E00E7A118 /* IndoorAnimation5B.swift in Sources */,
 				A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
+				045F4E0E2484F0E300E7A118 /* CyclingExercise.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
+				045F4DC62484BC8400E7A118 /* IndoorAnimationTrial.swift in Sources */,
 				A9FB2A2324793F2E006CEBDE /* SwiftUIView.swift in Sources */,
+				045F4DEB2484CBF500E7A118 /* IndoorAnimation6.swift in Sources */,
+				045F4DD82484C41100E7A118 /* IndoorExercise3B.swift in Sources */,
+				045F4DCE2484C14800E7A118 /* IndoorAnimation2B.swift in Sources */,
+				045F4DDE2484C8A800E7A118 /* IndoorAnimation4B.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
