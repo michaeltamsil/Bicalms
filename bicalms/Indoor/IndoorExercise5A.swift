@@ -299,3 +299,8 @@ class IndoorExerciseCurtsyLungeLeftVHC: UIHostingController<IndoorExercise5A> {
         super.init(coder: aDecoder, rootView: IndoorExercise5A())
     }
 }
+class IndoorExerciseCurtsyVHC: UIHostingController<IndoorExercise5A> {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: IndoorExercise5A())
+    }
+}

@@ -88,6 +88,8 @@
 		04EEF2F82485232400297DEA /* OutdoorExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEF2F52485232400297DEA /* OutdoorExcercise.storyboard */; };
 		04EEF2F92485232400297DEA /* OutdoorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2F62485232400297DEA /* OutdoorAnimation.swift */; };
 		04EEF2FA2485232400297DEA /* OutdoorExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEF2F72485232400297DEA /* OutdoorExercise.swift */; };
+		31126A5F2486730800303811 /* CED_ExcerciseB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31126A5E2486730700303811 /* CED_ExcerciseB.storyboard */; };
+		31126A61248679CB00303811 /* CED_ExcerciseC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31126A60248679CB00303811 /* CED_ExcerciseC.storyboard */; };
 		31379141246B1BB300FDC13E /* Indoor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913D246B1BB300FDC13E /* Indoor3.png */; };
 		31379142246B1BB300FDC13E /* Indoor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913E246B1BB300FDC13E /* Indoor4.png */; };
 		31379143246B1BB300FDC13E /* Indoor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3137913F246B1BB300FDC13E /* Indoor1.png */; };
@@ -112,8 +114,6 @@
 		A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */; };
 		A974484D247CF947001FFFC7 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = A974484C247CF947001FFFC7 /* icon */; };
 		A9744850247D2A6D001FFFC7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974484F247D2A6D001FFFC7 /* RoundButton.swift */; };
-		A9B982A524861F1700304084 /* CED_ExcerciseB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A424861F1700304084 /* CED_ExcerciseB.storyboard */; };
-		A9B982A72486202D00304084 /* CED_ExcerciseC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A62486202D00304084 /* CED_ExcerciseC.storyboard */; };
 		A9B982A92486207000304084 /* CED_ExcerciseD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A82486207000304084 /* CED_ExcerciseD.storyboard */; };
 		A9B982AB2486611800304084 /* TestCoreData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982AA2486611800304084 /* TestCoreData.storyboard */; };
 		A9B982AD2486612300304084 /* TestcoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B982AC2486612300304084 /* TestcoreData.swift */; };
@@ -203,6 +203,8 @@
 		04EEF2F52485232400297DEA /* OutdoorExcercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OutdoorExcercise.storyboard; sourceTree = "<group>"; };
 		04EEF2F62485232400297DEA /* OutdoorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorAnimation.swift; sourceTree = "<group>"; };
 		04EEF2F72485232400297DEA /* OutdoorExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorExercise.swift; sourceTree = "<group>"; };
+		31126A5E2486730700303811 /* CED_ExcerciseB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseB.storyboard; sourceTree = "<group>"; };
+		31126A60248679CB00303811 /* CED_ExcerciseC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CED_ExcerciseC.storyboard; path = ../../../copy/copy/CED_ExcerciseC.storyboard; sourceTree = "<group>"; };
 		3137913D246B1BB300FDC13E /* Indoor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor3.png; sourceTree = "<group>"; };
 		3137913E246B1BB300FDC13E /* Indoor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor4.png; sourceTree = "<group>"; };
 		3137913F246B1BB300FDC13E /* Indoor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indoor1.png; sourceTree = "<group>"; };
@@ -230,8 +232,6 @@
 		A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseExcercise.storyboard; sourceTree = "<group>"; };
 		A974484C247CF947001FFFC7 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 		A974484F247D2A6D001FFFC7 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		A9B982A424861F1700304084 /* CED_ExcerciseB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseB.storyboard; sourceTree = "<group>"; };
-		A9B982A62486202D00304084 /* CED_ExcerciseC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseC.storyboard; sourceTree = "<group>"; };
 		A9B982A82486207000304084 /* CED_ExcerciseD.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseD.storyboard; sourceTree = "<group>"; };
 		A9B982AA2486611800304084 /* TestCoreData.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestCoreData.storyboard; sourceTree = "<group>"; };
 		A9B982AC2486612300304084 /* TestcoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestcoreData.swift; sourceTree = "<group>"; };
@@ -452,8 +452,8 @@
 			isa = PBXGroup;
 			children = (
 				A9DF4932247BF58E00189CE5 /* CED_ExcerciseA.storyboard */,
-				A9B982A424861F1700304084 /* CED_ExcerciseB.storyboard */,
-				A9B982A62486202D00304084 /* CED_ExcerciseC.storyboard */,
+				31126A5E2486730700303811 /* CED_ExcerciseB.storyboard */,
+				31126A60248679CB00303811 /* CED_ExcerciseC.storyboard */,
 				A9B982A82486207000304084 /* CED_ExcerciseD.storyboard */,
 			);
 			path = "Choose Excercise Detail";
@@ -530,7 +530,6 @@
 				04780A3124853EEB00478793 /* D9 - Burpees.png in Resources */,
 				A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */,
 				041FFC6C248117D6000B9E5E /* D3 - Overhead Side Knees (left).mp4 in Resources */,
-				A9B982A524861F1700304084 /* CED_ExcerciseB.storyboard in Resources */,
 				A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */,
 				31827340246E264B0097B145 /* Indoor2.png in Resources */,
 				04780A2E24853EEB00478793 /* D8 - Pop Squats.png in Resources */,
@@ -556,11 +555,11 @@
 				04EEF2F82485232400297DEA /* OutdoorExcercise.storyboard in Resources */,
 				31379143246B1BB300FDC13E /* Indoor1.png in Resources */,
 				3137914C246B286000FDC13E /* Running.png in Resources */,
+				31126A5F2486730800303811 /* CED_ExcerciseB.storyboard in Resources */,
 				041FFC68248117D6000B9E5E /* D5 - Curtsy Lunge (right).mp4 in Resources */,
 				041FFC6A248117D6000B9E5E /* D2 - Goofy Jacks (left).mp4 in Resources */,
 				041FFC69248117D6000B9E5E /* D2 - Goofy Jacks (right).mp4 in Resources */,
 				041FFC71248117D6000B9E5E /* D1 - Toy Soldiers.mp4 in Resources */,
-				A9B982A72486202D00304084 /* CED_ExcerciseC.storyboard in Resources */,
 				04780A2824853EEB00478793 /* D2 - Goofy Jacks (left).png in Resources */,
 				04780A3424853EEB00478793 /* D2 - Goofy Jacks (right).png in Resources */,
 				04780A2F24853EEB00478793 /* D5 - Curtsy Lunge (right).png in Resources */,
@@ -578,6 +577,7 @@
 				49BB6086247CEAA000D156EE /* OnBoarding.storyboard in Resources */,
 				04780A3024853EEB00478793 /* D4 - Flying Fast Ups (left).png in Resources */,
 				041FFC73248117D6000B9E5E /* D8 - Pop Squats.mp4 in Resources */,
+				31126A61248679CB00303811 /* CED_ExcerciseC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

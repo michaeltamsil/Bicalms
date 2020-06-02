@@ -293,3 +293,8 @@ struct IndoorExercise9_Previews: PreviewProvider {
         IndoorExercise9()
     }
 }
+class IndoorExerciseBurpeesVHC: UIHostingController<IndoorExercise9> {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: IndoorExercise9())
+    }
+}
