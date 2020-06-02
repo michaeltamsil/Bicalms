@@ -8,6 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Hosting Controller-->
+        <scene sceneID="uZw-EK-Ol9">
+            <objects>
+                <hostingController id="DgZ-I1-FXI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fOP-HJ-aSJ"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdj-lN-sDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1056" y="-158"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Aog-Ow-Mo2">
             <objects>
@@ -116,6 +126,27 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cM-L7-a7d">
+                                <rect key="frame" x="32" y="342" width="292" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="DgZ-I1-FXI" kind="show" id="vPX-dW-NV5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5Y-hE-mQX">
+                                <rect key="frame" x="32" y="434" width="292" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="7vk-7c-vF3" kind="show" id="O3Z-XP-8xX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbk-cs-zWA">
+                                <rect key="frame" x="32" y="522" width="292" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="mFp-iQ-TqI" kind="show" id="0UN-LN-Pmn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="Blue2"/>
                         <accessibility key="accessibilityConfiguration" label="Timer">
@@ -127,6 +158,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0h5-yl-Q7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-262.31884057971018" y="-124.55357142857142"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="DXj-EK-uAW">
+            <objects>
+                <hostingController id="7vk-7c-vF3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="GCb-vp-Pwa"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKQ-tM-NJY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="-302"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="HMS-j6-Ai2">
+            <objects>
+                <hostingController id="mFp-iQ-TqI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VrP-Ds-ikb"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aew-Vl-Zhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="-318"/>
         </scene>
     </scenes>
     <resources>
