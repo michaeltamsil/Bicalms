@@ -243,6 +243,7 @@ struct IndoorExercise8 : View {
 struct indoorAlertView8 : View {
     
     @Binding var showAlert : Bool
+//    @Binding var countDown: int
     var body: some View {
         
         ZStack {
@@ -261,13 +262,17 @@ struct indoorAlertView8 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Leave")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                       coreDataAddItem(excercise: "Squats on \(30) seconds")
+                       self.showAlert.toggle()
+                   }){
+                        Text("Leave")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showAlert.toggle()

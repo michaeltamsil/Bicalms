@@ -180,7 +180,7 @@ struct IndoorExercise4B : View {
             .blur(radius: showAlert ? 30 : 0)
             
             if showAlert {
-                indoorAlertView4B(showAlert: $showAlert)
+                indoorAlertView4B(showAlert: $showAlert, countDown: $countDown)
             }
         }
     }
@@ -243,6 +243,8 @@ struct IndoorExercise4B : View {
 struct indoorAlertView4B : View {
     
     @Binding var showAlert : Bool
+    @Binding var countDown: Int
+    
     var body: some View {
         
         ZStack {
@@ -261,13 +263,17 @@ struct indoorAlertView4B : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Leave")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Flying Fast Ups on \(30 - self.countDown) seconds")
+                        self.showAlert.toggle()
+                    }){
+                        Text("Leave")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showAlert.toggle()

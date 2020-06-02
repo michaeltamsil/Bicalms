@@ -181,7 +181,8 @@ struct IndoorExercise1 : View {
             .blur(radius: showAlert ? 30 : 0)
             
             if showAlert {
-                indoorAlertView1(showAlert: $showAlert)
+                indoorAlertView1(showAlert: $showAlert,
+                                 countDown: $countDown)
             }
         }
     }
@@ -245,6 +246,7 @@ struct IndoorExercise1 : View {
 struct indoorAlertView1 : View {
     
     @Binding var showAlert : Bool
+    @Binding var countDown: Int
     var body: some View {
         
         ZStack {
@@ -263,13 +265,17 @@ struct indoorAlertView1 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Leave")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Toy Soldiers on \(30 - self.countDown) seconds")
+                        self.showAlert.toggle()
+                    }){
+                        Text("Leave")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showAlert.toggle()
