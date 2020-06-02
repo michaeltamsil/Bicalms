@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Trl-HO-CrX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Trl-HO-CrX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -149,6 +149,48 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shh-BT-Egu" userLabel="Lunge">
+                                <rect key="frame" x="24" y="350" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="boW-Gp-8Hp" kind="show" id="hqw-g5-8Uf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5r-WV-cnm" userLabel="Lunge">
+                                <rect key="frame" x="16" y="430" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="A5e-zl-md1" kind="show" id="J1w-JQ-yF2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hC5-ub-4Yv" userLabel="Lunge">
+                                <rect key="frame" x="20" y="518" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="6Hc-dP-3rj" kind="show" id="TXB-DO-W7p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2V-8z-Xvz" userLabel="Lunge">
+                                <rect key="frame" x="20" y="607" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="vHR-BF-mxq" kind="show" id="PV6-nU-mgx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNI-5q-Lnd" userLabel="Lunge">
+                                <rect key="frame" x="24" y="700" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="orT-M7-Jw5" kind="show" id="wRo-Ic-v9x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBZ-kf-Eo0" userLabel="Lunge">
+                                <rect key="frame" x="20" y="790" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="hQv-lN-SRz" kind="show" id="fve-Pe-jHu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="Blue2"/>
                         <accessibility key="accessibilityConfiguration" label="Timer">
@@ -160,6 +202,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0h5-yl-Q7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-262.31884057971018" y="-124.55357142857142"/>
+        </scene>
+        <!--Indoor Exercise OverheadVHC-->
+        <scene sceneID="fgY-TB-3vF">
+            <objects>
+                <hostingController id="6Hc-dP-3rj" customClass="IndoorExerciseOverheadVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mWy-Ce-UWu"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBr-xz-a1R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="356"/>
+        </scene>
+        <!--Indoor Exercise ToyVHC-->
+        <scene sceneID="nHM-14-hmJ">
+            <objects>
+                <hostingController id="boW-Gp-8Hp" customClass="IndoorExerciseToyVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pll-Cq-93h"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l3h-rz-1KG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530" y="-416"/>
+        </scene>
+        <!--Indoor Exercise GoofyVHC-->
+        <scene sceneID="8NG-Y9-P49">
+            <objects>
+                <hostingController id="A5e-zl-md1" customClass="IndoorExerciseGoofyVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Acp-yd-QjI"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bl2-Ym-NnJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400" y="-417"/>
+        </scene>
+        <!--Indoor Exercise FlyingVHC-->
+        <scene sceneID="fD2-Nu-1uM">
+            <objects>
+                <hostingController id="vHR-BF-mxq" customClass="IndoorExerciseFlyingVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dNr-kF-xIb"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0T-Su-g1N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1399" y="356"/>
+        </scene>
+        <!--Indoor Exercise Mountain WalkersVHC-->
+        <scene sceneID="F1z-Z8-VPo">
+            <objects>
+                <hostingController id="hQv-lN-SRz" customClass="IndoorExerciseMountainWalkersVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vpY-iH-2Ld"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsK-Re-hae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2219" y="356"/>
+        </scene>
+        <!--Indoor Exercise CurtsyVHC-->
+        <scene sceneID="4BD-wE-mbh">
+            <objects>
+                <hostingController id="orT-M7-Jw5" customClass="IndoorExerciseCurtsyVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nxL-bh-9bT"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Vh-Nk-3mW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2220" y="-417"/>
         </scene>
     </scenes>
     <resources>
