@@ -106,7 +106,7 @@
 		A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6824694B9800D17199 /* SceneDelegate.swift */; };
 		A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6A24694B9800D17199 /* ViewController.swift */; };
 		A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F6C24694B9800D17199 /* Main.storyboard */; };
-		A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */; };
+		A96B5F7124694B9800D17199 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6F24694B9800D17199 /* DataModel.xcdatamodeld */; };
 		A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7224694B9C00D17199 /* Assets.xcassets */; };
 		A96B5F7624694B9C00D17199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7424694B9C00D17199 /* LaunchScreen.storyboard */; };
 		A96B5F7E24695B3900D17199 /* ChooseExcercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */; };
@@ -115,6 +115,8 @@
 		A9B982A524861F1700304084 /* CED_ExcerciseB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A424861F1700304084 /* CED_ExcerciseB.storyboard */; };
 		A9B982A72486202D00304084 /* CED_ExcerciseC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A62486202D00304084 /* CED_ExcerciseC.storyboard */; };
 		A9B982A92486207000304084 /* CED_ExcerciseD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982A82486207000304084 /* CED_ExcerciseD.storyboard */; };
+		A9B982AB2486611800304084 /* TestCoreData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B982AA2486611800304084 /* TestCoreData.storyboard */; };
+		A9B982AD2486612300304084 /* TestcoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B982AC2486612300304084 /* TestcoreData.swift */; };
 		A9DF4933247BF58E00189CE5 /* CED_ExcerciseA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DF4932247BF58E00189CE5 /* CED_ExcerciseA.storyboard */; };
 		A9FB2A2324793F2E006CEBDE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
@@ -231,6 +233,8 @@
 		A9B982A424861F1700304084 /* CED_ExcerciseB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseB.storyboard; sourceTree = "<group>"; };
 		A9B982A62486202D00304084 /* CED_ExcerciseC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseC.storyboard; sourceTree = "<group>"; };
 		A9B982A82486207000304084 /* CED_ExcerciseD.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CED_ExcerciseD.storyboard; sourceTree = "<group>"; };
+		A9B982AA2486611800304084 /* TestCoreData.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestCoreData.storyboard; sourceTree = "<group>"; };
+		A9B982AC2486612300304084 /* TestcoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestcoreData.swift; sourceTree = "<group>"; };
 		A9DF4932247BF58E00189CE5 /* CED_ExcerciseA.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = CED_ExcerciseA.storyboard; path = "bicalms/Choose Excercise Detail/CED_ExcerciseA.storyboard"; sourceTree = SOURCE_ROOT; };
 		A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,6 +287,8 @@
 			children = (
 				045F4DC52484BC8400E7A118 /* IndoorAnimationTrial.swift */,
 				045F4DC72484BCD900E7A118 /* IndoorExerciseTrial.swift */,
+				A9B982AA2486611800304084 /* TestCoreData.storyboard */,
+				A9B982AC2486612300304084 /* TestcoreData.swift */,
 			);
 			path = "Trial-Percobaan";
 			sourceTree = "<group>";
@@ -427,7 +433,7 @@
 				042CC87D2485773000B462F5 /* Trial-Percobaan */,
 				A96B5F7224694B9C00D17199 /* Assets.xcassets */,
 				A96B5F7724694B9C00D17199 /* Info.plist */,
-				A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */,
+				A96B5F6F24694B9800D17199 /* DataModel.xcdatamodeld */,
 				A9FB2A2224793F2E006CEBDE /* SwiftUIView.swift */,
 			);
 			path = bicalms;
@@ -563,6 +569,7 @@
 				04780A2B24853EEB00478793 /* D7 - Lunge.png in Resources */,
 				04780A3224853EEB00478793 /* D4 - Flying Fast Ups (right).png in Resources */,
 				3137914B246B286000FDC13E /* Cycling.png in Resources */,
+				A9B982AB2486611800304084 /* TestCoreData.storyboard in Resources */,
 				04E2DC7D247ED3BF001FD0FB /* Bike Animation.mp4 in Resources */,
 				041FFC6D248117D6000B9E5E /* D4 - Flying Fast Ups (left).mp4 in Resources */,
 				04EEF2EE2485222F00297DEA /* IndoorExercise.storyboard in Resources */,
@@ -595,7 +602,7 @@
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
 				045F4DCA2484BF6B00E7A118 /* IndoorAnimation2A.swift in Sources */,
 				045F4DD22484C30900E7A118 /* IndoorAnimation3A.swift in Sources */,
-				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
+				A96B5F7124694B9800D17199 /* DataModel.xcdatamodeld in Sources */,
 				045F4DCC2484BF7A00E7A118 /* IndoorExercise2A.swift in Sources */,
 				043B9AE3248408A100914170 /* IndoorExercise1.swift in Sources */,
 				045F4E0A2484F0C400E7A118 /* RunningExercise.swift in Sources */,
@@ -617,6 +624,7 @@
 				045F4E082484F0B500E7A118 /* RunningAnimation.swift in Sources */,
 				045F4DE42484C9CE00E7A118 /* IndoorExercise5A.swift in Sources */,
 				045F4E002484F06600E7A118 /* WalkingExercise.swift in Sources */,
+				A9B982AD2486612300304084 /* TestcoreData.swift in Sources */,
 				04EEF2ED2485222F00297DEA /* IndoorAnimation.swift in Sources */,
 				045F4DF92484D7E500E7A118 /* IndoorExercise9.swift in Sources */,
 				045F4DF72484D7D700E7A118 /* IndoorAnimation9.swift in Sources */,
@@ -627,7 +635,7 @@
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				045F4E0E2484F0E300E7A118 /* CyclingExercise.swift in Sources */,
 				A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */,
-				A96B5F7124694B9800D17199 /* bicalms.xcdatamodeld in Sources */,
+				A96B5F7124694B9800D17199 /* DataModel.xcdatamodeld in Sources */,
 				045F4DC62484BC8400E7A118 /* IndoorAnimationTrial.swift in Sources */,
 				A9FB2A2324793F2E006CEBDE /* SwiftUIView.swift in Sources */,
 				045F4DEB2484CBF500E7A118 /* IndoorAnimation6.swift in Sources */,
@@ -835,13 +843,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A96B5F6F24694B9800D17199 /* bicalms.xcdatamodeld */ = {
+		A96B5F6F24694B9800D17199 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				A96B5F7024694B9800D17199 /* bicalms.xcdatamodel */,
 			);
 			currentVersion = A96B5F7024694B9800D17199 /* bicalms.xcdatamodel */;
-			path = bicalms.xcdatamodeld;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
