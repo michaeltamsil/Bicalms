@@ -118,7 +118,7 @@ For depressive symptoms</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="8gt-9H-UTO" kind="show" id="QUj-hQ-nuO"/>
+                                                    <segue destination="arB-MK-8ph" kind="show" id="ngr-1z-IDl"/>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17O-L2-mFl" userLabel="Excercise B">
@@ -131,6 +131,14 @@ Raise Heart Rate</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-n1-bnG" userLabel="Excercise B">
+                                                <rect key="frame" x="227" y="240" width="181" height="125"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title=" " backgroundImage="Indoor2.png"/>
+                                                <connections>
+                                                    <segue destination="inr-jX-zyK" kind="show" id="D17-R6-U6U"/>
+                                                </connections>
+                                            </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzt-4A-DrB" userLabel="Excercise C">
                                                 <rect key="frame" x="19" y="567" width="179" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,7 +158,7 @@ Reduce Anxiety</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="8gt-9H-UTO" kind="show" id="gyA-xP-ymU"/>
+                                                    <segue destination="WYe-w6-8v9" kind="show" id="k25-h7-7xg"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Indoor4.png" translatesAutoresizingMaskIntoConstraints="NO" id="zJs-yC-oq3" userLabel="Excercise D">
@@ -172,7 +180,7 @@ Mental and Physical</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="8gt-9H-UTO" kind="show" id="KAV-VU-Kv5"/>
+                                                    <segue destination="B0Z-IX-QIl" kind="show" id="vhr-MU-lzd"/>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Outdoor Aerobic" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrN-UP-RiJ" userLabel="Outdoor Aerobic">
@@ -255,14 +263,6 @@ Mental and Physical</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-n1-bnG" userLabel="Excercise B">
-                                                <rect key="frame" x="227" y="240" width="181" height="127"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title=" " backgroundImage="Indoor2.png"/>
-                                                <connections>
-                                                    <segue destination="8gt-9H-UTO" kind="show" id="r8Q-VR-PFX"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.031372549019607843" green="0.082352941176470587" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -296,17 +296,47 @@ Mental and Physical</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFT-09-Epe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1032" y="-374"/>
+            <point key="canvasLocation" x="-1033.3333333333335" y="-374.33035714285711"/>
         </scene>
-        <!--IndoorExercise-->
-        <scene sceneID="NpB-AN-Dsc">
+        <!--CED_ExcerciseA-->
+        <scene sceneID="LD0-mX-tds">
             <objects>
-                <viewControllerPlaceholder storyboardName="IndoorExercise" id="8gt-9H-UTO" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Uvx-JO-fph"/>
+                <viewControllerPlaceholder storyboardName="CED_ExcerciseA" id="arB-MK-8ph" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dwx-rt-Dbo"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lhs-AY-rCw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ED2-XH-PAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-183" y="-420"/>
+            <point key="canvasLocation" x="-279" y="-667"/>
+        </scene>
+        <!--CED_ExcerciseB-->
+        <scene sceneID="nBY-7B-x54">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CED_ExcerciseB" id="inr-jX-zyK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rR5-Cd-98d"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nmw-8i-MTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249" y="-641"/>
+        </scene>
+        <!--CED_ExcerciseC-->
+        <scene sceneID="CeY-y2-1tz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CED_ExcerciseC" id="WYe-w6-8v9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yh5-DU-z5d"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nw8-71-Lnp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-252" y="-611"/>
+        </scene>
+        <!--CED_ExcerciseD-->
+        <scene sceneID="DZt-je-iYT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CED_ExcerciseD" id="B0Z-IX-QIl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gi4-NM-h0j"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTU-jl-nQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247" y="-582"/>
         </scene>
         <!--OutdoorExcercise-->
         <scene sceneID="D0S-G7-njM">
@@ -321,7 +351,6 @@ Mental and Physical</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="j7f-al-fYL"/>
-        <segue reference="r8Q-VR-PFX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Cycling.png" width="180" height="123"/>
