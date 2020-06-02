@@ -334,3 +334,9 @@ struct finishAlertView4 : View {
         .cornerRadius(24)
     }
 }
+
+class CyclingExerciseVHC: UIHostingController<CyclingExercise> {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: CyclingExercise())
+    }
+}

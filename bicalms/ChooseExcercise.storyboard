@@ -76,7 +76,7 @@
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Hello," selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBX-GS-GFY" userLabel="Hello,">
-                                                <rect key="frame" x="19" y="41" width="240" height="63"/>
+                                                <rect key="frame" x="20" y="41" width="240" height="63"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -84,7 +84,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Choose Your Exercise" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEI-nm-ftp" userLabel="Choose Your Exercise">
-                                                <rect key="frame" x="19" y="100" width="240" height="63"/>
+                                                <rect key="frame" x="19" y="87" width="240" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,7 +92,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Indoor Aerobic" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KC9-36-nAX" userLabel="Indoor Aerobic">
-                                                <rect key="frame" x="19" y="171" width="278" height="63"/>
+                                                <rect key="frame" x="19" y="171" width="278" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,11 +100,11 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Indoor1.png" translatesAutoresizingMaskIntoConstraints="NO" id="SyF-C3-sSc" userLabel="Excercise A">
-                                                <rect key="frame" x="19" y="242" width="179" height="123"/>
+                                                <rect key="frame" x="19" y="216" width="179" height="102"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzh-Pi-UKP" userLabel="Excercise A">
-                                                <rect key="frame" x="19" y="373" width="179" height="47"/>
+                                                <rect key="frame" x="38" y="326" width="160" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <string key="text">Exercise A
@@ -114,7 +114,7 @@ For depressive symptoms</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x92-uI-NkA" userLabel="Excercise A">
-                                                <rect key="frame" x="19" y="242" width="179" height="171"/>
+                                                <rect key="frame" x="19" y="213" width="179" height="160"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
@@ -122,7 +122,7 @@ For depressive symptoms</string>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17O-L2-mFl" userLabel="Excercise B">
-                                                <rect key="frame" x="229" y="373" width="179" height="47"/>
+                                                <rect key="frame" x="235" y="326" width="179" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <string key="text">Exercise B
@@ -132,7 +132,7 @@ Raise Heart Rate</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBc-n1-bnG" userLabel="Excercise B">
-                                                <rect key="frame" x="227" y="240" width="181" height="125"/>
+                                                <rect key="frame" x="235" y="216" width="158" height="102"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" " backgroundImage="Indoor2.png"/>
                                                 <connections>
@@ -140,7 +140,7 @@ Raise Heart Rate</string>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzt-4A-DrB" userLabel="Excercise C">
-                                                <rect key="frame" x="19" y="567" width="179" height="47"/>
+                                                <rect key="frame" x="38" y="488" width="179" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <string key="text">Exercise C
@@ -150,11 +150,11 @@ Reduce Anxiety</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Indoor3.png" translatesAutoresizingMaskIntoConstraints="NO" id="mFD-Kz-q0P" userLabel="Excercise C">
-                                                <rect key="frame" x="19" y="436" width="179" height="123"/>
+                                                <rect key="frame" x="38" y="381" width="149" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egc-cp-aNx" userLabel="Excercise C">
-                                                <rect key="frame" x="19" y="436" width="179" height="171"/>
+                                                <rect key="frame" x="38" y="381" width="149" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
@@ -162,11 +162,11 @@ Reduce Anxiety</string>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Indoor4.png" translatesAutoresizingMaskIntoConstraints="NO" id="zJs-yC-oq3" userLabel="Excercise D">
-                                                <rect key="frame" x="228" y="436" width="179" height="123"/>
+                                                <rect key="frame" x="235" y="381" width="158" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oe8-oL-0wP" userLabel="Excercise D">
-                                                <rect key="frame" x="236" y="567" width="179" height="47"/>
+                                                <rect key="frame" x="230" y="491" width="179" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <string key="text">Exercise D
@@ -176,7 +176,7 @@ Mental and Physical</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkS-7H-Lqs" userLabel="Excercise D">
-                                                <rect key="frame" x="228" y="436" width="179" height="171"/>
+                                                <rect key="frame" x="235" y="381" width="158" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
@@ -184,7 +184,7 @@ Mental and Physical</string>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Outdoor Aerobic" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrN-UP-RiJ" userLabel="Outdoor Aerobic">
-                                                <rect key="frame" x="19" y="659" width="233" height="45"/>
+                                                <rect key="frame" x="25" y="538" width="226" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -192,11 +192,11 @@ Mental and Physical</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Walking.png" translatesAutoresizingMaskIntoConstraints="NO" id="WH3-tR-cVa" userLabel="Walking">
-                                                <rect key="frame" x="19" y="703" width="180" height="123"/>
+                                                <rect key="frame" x="37" y="585" width="150" height="115"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Walking" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nq6-zL-4aD" userLabel="Walking">
-                                                <rect key="frame" x="20" y="834" width="179" height="47"/>
+                                                <rect key="frame" x="38" y="702" width="149" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,19 +204,19 @@ Mental and Physical</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mzx-jw-gSj" userLabel="Walking">
-                                                <rect key="frame" x="19" y="703" width="179" height="160"/>
+                                                <rect key="frame" x="38" y="585" width="149" height="147"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="MVB-4z-fTN" kind="show" id="G7f-9I-rdQ"/>
+                                                    <segue destination="HlW-RN-9OO" kind="show" id="m4V-wk-ieb"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Jogging.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ia2-on-jim" userLabel="Jogging">
-                                                <rect key="frame" x="229" y="703" width="180" height="123"/>
+                                                <rect key="frame" x="235" y="585" width="158" height="109"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Jogging" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amg-C0-Vfd" userLabel="Jogging">
-                                                <rect key="frame" x="230" y="834" width="179" height="47"/>
+                                                <rect key="frame" x="235" y="699" width="158" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -224,19 +224,19 @@ Mental and Physical</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txI-Ts-PWl" userLabel="Jogging">
-                                                <rect key="frame" x="228" y="703" width="179" height="160"/>
+                                                <rect key="frame" x="235" y="585" width="158" height="140"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="MVB-4z-fTN" kind="show" id="HvI-hH-uZ4"/>
+                                                    <segue destination="flb-dv-S7I" kind="show" id="ggm-2T-wUR"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Cycling.png" translatesAutoresizingMaskIntoConstraints="NO" id="YEn-4a-VUT" userLabel="Cycling">
-                                                <rect key="frame" x="226" y="882" width="180" height="123"/>
+                                                <rect key="frame" x="235" y="730" width="158" height="114"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Cycling" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKx-qr-7KY" userLabel="Cycling">
-                                                <rect key="frame" x="228" y="1013" width="179" height="30"/>
+                                                <rect key="frame" x="235" y="844" width="126" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -244,25 +244,32 @@ Mental and Physical</string>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrM-hQ-de0" userLabel="Cycling">
-                                                <rect key="frame" x="227" y="882" width="179" height="171"/>
+                                                <rect key="frame" x="230" y="735" width="163" height="139"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title=" "/>
                                                 <connections>
-                                                    <segue destination="MVB-4z-fTN" kind="show" id="j7f-al-fYL"/>
+                                                    <segue destination="H9v-m4-KmF" kind="show" id="apf-JY-yAR"/>
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Running.png" translatesAutoresizingMaskIntoConstraints="NO" id="9MF-Aj-VeL" userLabel="Running">
-                                                <rect key="frame" x="19" y="882" width="180" height="123"/>
+                                                <rect key="frame" x="38" y="740" width="149" height="104"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Running" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF0-QN-sQI" userLabel="Running">
-                                                <rect key="frame" x="20" y="1013" width="179" height="30"/>
+                                                <rect key="frame" x="42" y="852" width="133" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyW-zt-8D3" userLabel="Running">
+                                                <rect key="frame" x="37" y="740" width="150" height="134"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <segue destination="TmV-uv-t9M" kind="show" id="YxV-JS-uAv"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.031372549019607843" green="0.082352941176470587" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -338,20 +345,47 @@ Mental and Physical</string>
             </objects>
             <point key="canvasLocation" x="-247" y="-582"/>
         </scene>
-        <!--OutdoorExcercise-->
-        <scene sceneID="D0S-G7-njM">
+        <!--Walking ExerciseVHC-->
+        <scene sceneID="Q8K-Sw-2tm">
             <objects>
-                <viewControllerPlaceholder storyboardName="OutdoorExcercise" id="MVB-4z-fTN" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="sdr-YI-IHP"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U9d-bq-kBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <hostingController id="HlW-RN-9OO" customClass="WalkingExerciseVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8TZ-fU-yTR"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiW-Oh-Zpi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-171" y="-55"/>
+            <point key="canvasLocation" x="451" y="-445"/>
+        </scene>
+        <!--Running ExerciseVHC-->
+        <scene sceneID="WtY-YN-nzg">
+            <objects>
+                <hostingController id="TmV-uv-t9M" customClass="RunningExerciseVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="GaK-sB-b4n"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ju7-zx-Qeh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="230"/>
+        </scene>
+        <!--Cycling ExerciseVHC-->
+        <scene sceneID="iEk-fp-53W">
+            <objects>
+                <hostingController id="H9v-m4-KmF" customClass="CyclingExerciseVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qxC-9h-iTX"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zeN-YI-n6Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1261" y="232"/>
+        </scene>
+        <!--Jogging ExerciseVHC-->
+        <scene sceneID="DtA-eG-mTp">
+            <objects>
+                <hostingController id="flb-dv-S7I" customClass="JoggingExerciseVHC" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lBe-M9-TDi"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j9f-uF-z3n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1259" y="-438"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="j7f-al-fYL"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Cycling.png" width="180" height="123"/>
         <image name="Indoor1.png" width="179" height="123"/>
