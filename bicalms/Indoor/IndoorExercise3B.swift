@@ -298,8 +298,8 @@ struct IndoorExercise3B_Previews: PreviewProvider {
         IndoorExercise3B()
     }
 }
-class IndoorExerciseOverheadVHC: UIHostingController<IndoorExercise3A> {
+class IndoorExerciseOverheadVHC: UIHostingController<IndoorExercise3B> {
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder, rootView: IndoorExercise3A())
+        super.init(coder: aDecoder, rootView: IndoorExercise3B())
     }
 }
