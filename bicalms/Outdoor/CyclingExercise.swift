@@ -181,11 +181,11 @@ struct CyclingExercise : View {
             .blur(radius: showFinish ? 30 : 0)
             
             if showAlert {
-                customAlertView4(showAlert: $showAlert)
+                customAlertView4(showAlert: $showAlert, countDown: $countDown)
             }
             
             if showFinish {
-                finishAlertView4(showFinish: $showFinish)
+                finishAlertView4(showFinish: $showFinish, countDown: $countDown)
             }
         }
     }
@@ -242,6 +242,7 @@ struct CyclingExercise_Previews: PreviewProvider {
 struct customAlertView4 : View {
     
     @Binding var showAlert : Bool
+    @Binding var countDown : Int
     var body: some View {
         
         ZStack {
@@ -260,13 +261,17 @@ struct customAlertView4 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Leave")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Cycling on \(self.countDown) seconds")
+                        self.showAlert.toggle()
+                    }){
+                        Text("Leave")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showAlert.toggle()
@@ -290,6 +295,7 @@ struct customAlertView4 : View {
 struct finishAlertView4 : View {
     
     @Binding var showFinish : Bool
+    @Binding var countDown : Int
     var body: some View {
         
         ZStack {
@@ -308,13 +314,17 @@ struct finishAlertView4 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Finish")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Cycling on \(self.countDown) seconds")
+                        self.showFinish.toggle()
+                    }){
+                        Text("Finish")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showFinish.toggle()

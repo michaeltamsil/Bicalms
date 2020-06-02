@@ -181,11 +181,12 @@ struct WalkingExercise : View {
             .blur(radius: showFinish ? 30 : 0)
             
             if showAlert {
-                customAlertView1(showAlert: $showAlert)
+                customAlertView1(showAlert: $showAlert, countDown: $countDown)
+                
             }
             
             if showFinish {
-                finishAlertView1(showFinish: $showFinish)
+                finishAlertView1(showFinish: $showFinish, countDown: $countDown)
             }
         }
     }
@@ -242,6 +243,8 @@ struct WalkingExercise_Previews: PreviewProvider {
 struct customAlertView1 : View {
     
     @Binding var showAlert : Bool
+    @Binding var countDown : Int
+    //var timmer : Int
     var body: some View {
         
         ZStack {
@@ -260,15 +263,20 @@ struct customAlertView1 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Leave")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Walking on \(self.countDown) seconds")
+                        self.showAlert.toggle()
+                    }){
+                        Text("Leave")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
+                        print("cancel")
                         self.showAlert.toggle()
                     }) {
                     Text("Cancel")
@@ -277,6 +285,7 @@ struct customAlertView1 : View {
                         .fontWeight(.semibold)
                         .frame(width: 120, height: 64)
                         .padding(.top, 8)
+                        
                     }
                 }
             }            
@@ -290,6 +299,7 @@ struct customAlertView1 : View {
 struct finishAlertView1 : View {
     
     @Binding var showFinish : Bool
+    @Binding var countDown : Int
     var body: some View {
         
         ZStack {
@@ -308,13 +318,17 @@ struct finishAlertView1 : View {
                 .foregroundColor(Color("Blue2"))
                 
                 HStack{
-                    
-                    Text("Finish")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.red)
-                    .frame(width: 120, height: 64)
-                    .padding(.top, 8)
+                    Button(action: {
+                        coreDataAddItem(excercise: "Walking on \(self.countDown) seconds")
+                        self.showFinish.toggle()
+                    }){
+                        Text("Finish")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.red)
+                        .frame(width: 120, height: 64)
+                        .padding(.top, 8)
+                    }
                     
                     Button(action: {
                         self.showFinish.toggle()

@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Todo-->
+        <!--History Excercise-->
         <scene sceneID="dnb-S1-ucs">
             <objects>
                 <tableViewController id="rUI-fM-ZbG" customClass="TestcoreData" customModule="bicalms" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ePJ-AL-iQ6">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoItemCell" id="ePJ-AL-iQ6">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ePJ-AL-iQ6" id="HzJ-gU-za5">
@@ -29,13 +29,26 @@
                             <outlet property="delegate" destination="rUI-fM-ZbG" id="YDY-dz-0iH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todo" id="Myb-Me-xNX">
-                        <barButtonItem key="rightBarButtonItem" title=" +" id="9iD-rh-49y"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="History Excercise" id="Myb-Me-xNX">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="9iD-rh-49y">
+                                <connections>
+                                    <action selector="addButtonPressed:" destination="rUI-fM-ZbG" id="MvP-YX-3p4"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem style="plain" systemItem="trash" id="zGz-Xj-Wrg">
+                                <connections>
+                                    <action selector="deleteButtonPressed:" destination="rUI-fM-ZbG" id="j5W-7I-aBq"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYx-yO-DHw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12" y="192"/>
+            <point key="canvasLocation" x="38" y="192"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VBD-6K-ou6">
