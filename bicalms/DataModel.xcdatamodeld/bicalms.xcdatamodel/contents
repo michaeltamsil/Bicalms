@@ -4,7 +4,11 @@
         <attribute name="deviceType" attributeType="String"/>
         <attribute name="name" attributeType="String"/>
     </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="title" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Devices" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Item" positionX="-36" positionY="27" width="128" height="58"/>
     </elements>
 </model>
