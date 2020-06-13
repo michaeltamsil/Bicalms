@@ -106,7 +106,6 @@
 		A94C7FBE247E32C1002DBFDF /* Congratulations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */; };
 		A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6624694B9800D17199 /* AppDelegate.swift */; };
 		A96B5F6924694B9800D17199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6824694B9800D17199 /* SceneDelegate.swift */; };
-		A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6A24694B9800D17199 /* ViewController.swift */; };
 		A96B5F6E24694B9800D17199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F6C24694B9800D17199 /* Main.storyboard */; };
 		A96B5F7124694B9800D17199 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A96B5F6F24694B9800D17199 /* DataModel.xcdatamodeld */; };
 		A96B5F7324694B9C00D17199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96B5F7224694B9C00D17199 /* Assets.xcassets */; };
@@ -224,7 +223,6 @@
 		A96B5F6324694B9800D17199 /* bicalms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bicalms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96B5F6624694B9800D17199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96B5F6824694B9800D17199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A96B5F6A24694B9800D17199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A96B5F6D24694B9800D17199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A96B5F7024694B9800D17199 /* bicalms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bicalms.xcdatamodel; sourceTree = "<group>"; };
 		A96B5F7224694B9C00D17199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -414,7 +412,6 @@
 				A96B5F6624694B9800D17199 /* AppDelegate.swift */,
 				A94C7FBD247E32C1002DBFDF /* Congratulations.storyboard */,
 				A96B5F6824694B9800D17199 /* SceneDelegate.swift */,
-				A96B5F6A24694B9800D17199 /* ViewController.swift */,
 				A96B5F6C24694B9800D17199 /* Main.storyboard */,
 				A96B5F7D24695B3900D17199 /* ChooseExcercise.storyboard */,
 				49BB6085247CEAA000D156EE /* OnBoarding.storyboard */,
@@ -592,7 +589,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				045F4DC82484BCD900E7A118 /* IndoorExerciseTrial.swift in Sources */,
-				A96B5F6B24694B9800D17199 /* ViewController.swift in Sources */,
 				045F4DD42484C35D00E7A118 /* IndoorExercise3A.swift in Sources */,
 				A96B5F6724694B9800D17199 /* AppDelegate.swift in Sources */,
 				045F4E042484F09600E7A118 /* JoggingAnimation.swift in Sources */,
@@ -792,7 +788,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5T564JM4P;
 				INFOPLIST_FILE = bicalms/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -811,7 +807,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5T564JM4P;
 				INFOPLIST_FILE = bicalms/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
