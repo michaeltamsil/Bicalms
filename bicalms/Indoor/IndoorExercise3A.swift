@@ -137,6 +137,9 @@ struct IndoorExercise3A : View {
                                             
                                         }
                                         
+                                        .accessibility(label: Text(isPlaying ? "Play": "Pause"))
+                                        .accessibility(hint: Text("run animation to show what kind of move"))
+                                        
                                         Image(systemName: "info.circle")
                                             .frame(width: 96)
                                             .font(.largeTitle)
@@ -273,6 +276,8 @@ struct indoorAlertView3 : View {
                         .frame(width: 120, height: 64)
                         .padding(.top, 8)
                     }
+                    .accessibility(label: Text("Leave"))
+                    .accessibility(hint: Text("To leave current exercise"))
                     
                     Button(action: {
                         self.showAlert.toggle()
@@ -284,6 +289,8 @@ struct indoorAlertView3 : View {
                         .frame(width: 120, height: 64)
                         .padding(.top, 8)
                     }
+                    .accessibility(label: Text("Cancel"))
+                    .accessibility(hint: Text("To continue Overhead Side Knees exercise"))
                 }
             }
         }
