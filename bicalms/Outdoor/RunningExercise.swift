@@ -65,6 +65,8 @@ struct RunningExercise : View {
                         .font(.title)
                         .foregroundColor(.white)
                     }
+                .accessibility(label: Text("Close"))
+                .accessibility(hint: Text("To close current exercise"))
                 }
                 
                 VStack(spacing: 460){
@@ -97,6 +99,8 @@ struct RunningExercise : View {
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                            .accessibility(label: Text("Play"))
+                                .accessibility(hint: Text("Show the example how to running"))
                                 
                             } else {
                                 
@@ -119,6 +123,7 @@ struct RunningExercise : View {
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
+                                            .accessibility(label: Text("Repeat"))
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -135,6 +140,7 @@ struct RunningExercise : View {
                                                     .foregroundColor(.white)
                                             }
                                         }
+                                        .accessibility(label: Text(self.isPlaying ? "Pause": "Play"))
                                         
                                         Button(action: {
                                             self.showFinish.toggle()
@@ -144,6 +150,8 @@ struct RunningExercise : View {
                                                 .font(.largeTitle)
                                                 .foregroundColor(.white)
                                         }
+                                    .accessibility(label: Text("Stop"))
+                                    .accessibility(hint: Text("To stop current running exercise"))
                                     }
                                 }
                             }
