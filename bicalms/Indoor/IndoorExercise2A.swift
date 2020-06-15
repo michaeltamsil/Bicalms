@@ -9,7 +9,6 @@
 import SwiftUI
 import UIKit
 import AVFoundation
-
 struct IndoorExercise2A : View {
     
     @State var timer = Timer.publish (every: 1, on: .current, in: .common).autoconnect()
@@ -22,24 +21,19 @@ struct IndoorExercise2A : View {
     @State private var progressColor3 = "Blue3"
     @State private var progressColor4 = "Blue4"
     @State var showAlert = false
-    
     var body: some View {
 
         ZStack{
-            
             LinearGradient(gradient: .init(colors: [(Color("Blue2")), (Color("Blue1"))]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
-            
             ZStack{
-                
                 LinearGradient(gradient: .init(colors: [(Color(progressColor3)), (Color(progressColor4))]), startPoint: .top, endPoint: .bottom)
-                    
                     .mask(
                         Circle()
                             .stroke(lineWidth: 5)
                             .padding()
                             .frame(width: 360, height: 360)
                     )
-                
+
                 IndoorAnimation2A()
                     .frame(width: 360, height: 360, alignment: .center)
                     .clipShape(Circle())
@@ -61,6 +55,9 @@ struct IndoorExercise2A : View {
                         .font(.title)
                         .foregroundColor(.white)
                     }
+                .accessibility(label: Text("Close"))
+                .accessibility(hint: Text("To close Goofy Jacks Left side exercise"))
+                
                 }
                 
                 VStack(spacing: 460){
@@ -75,6 +72,7 @@ struct IndoorExercise2A : View {
                             .font(.title)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
+                        .accessibility(label: Text("Goofy jacks left exercise"))
                     }
                         
                         HStack{
@@ -93,6 +91,9 @@ struct IndoorExercise2A : View {
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                            .accessibility(label: Text("Play Exercise"))
+                            .accessibility(hint: Text("Start exercise with animation to show how to move"))
+                            
                             } else {
                                 
                                 VStack {
@@ -119,6 +120,8 @@ struct IndoorExercise2A : View {
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
                                         }
+                                        .accessibility(label: Text("Reset"))
+                                        .accessibility(hint: Text("To reset exercise time"))
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -136,16 +139,15 @@ struct IndoorExercise2A : View {
                                             }
                                             
                                         }
-                                        .accessibility(label: Text(isPlaying ? "Pause": "Play"))
-                                        .accessibility(hint: Text("run animation to show what kind of move"))
-                                        
-                                        
-                                        
-                                        
+                                        .accessibility(label: Text(self.isPlaying ? "Pause": "Play"))
+                                        .accessibility(hint: Text("run or pause animation to show what kind of move"))
+
                                         Image(systemName: "info.circle")
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
+                                        .accessibility(label: Text("Info"))
+                                        .accessibility(hint: Text("Currently not available info for now"))
                                     }
                                 }
                                 

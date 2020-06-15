@@ -94,15 +94,6 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Indoor Aerobic" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KC9-36-nAX" userLabel="Indoor Aerobic">
-                                                <rect key="frame" x="19" y="171" width="278" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <accessibility key="accessibilityConfiguration" hint="it's group" label="indoor aerobic"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Indoor1.png" translatesAutoresizingMaskIntoConstraints="NO" id="SyF-C3-sSc" userLabel="Excercise A">
                                                 <rect key="frame" x="19" y="216" width="179" height="102"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -307,6 +298,15 @@ Mental and Physical</string>
                                                     <segue destination="TmV-uv-t9M" kind="show" id="YxV-JS-uAv"/>
                                                 </connections>
                                             </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Indoor Aerobic" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KC9-36-nAX" userLabel="Indoor Aerobic">
+                                                <rect key="frame" x="19" y="138" width="278" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.029604040089999999" green="0.083844847979999998" blue="0.164714843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <accessibility key="accessibilityConfiguration" hint="it's group" label="indoor aerobic"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.031372549019607843" green="0.082352941176470587" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
