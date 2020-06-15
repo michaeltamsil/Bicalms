@@ -102,7 +102,7 @@ struct JoggingExercise : View {
                                         .foregroundColor(.white)
                                 }
                             .accessibility(label: Text("Play"))
-                            .accessibility(hint: Text("Show the example how to jogging"))
+                            .accessibility(hint: Text("Show the example how to jogging exercise move"))
                                 
                             } else {
                                 
@@ -125,7 +125,9 @@ struct JoggingExercise : View {
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
-                                            .accessibility(label: Text("repeat"))
+                                            .accessibility(label: Text("reset"))
+                                            .accessibility(hint: Text("To reset exercise time"))
+                                        
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -143,6 +145,7 @@ struct JoggingExercise : View {
                                             }
                                         }
                                         .accessibility(label: self.isPlaying ? Text("pause") : Text("play"))
+                                        .accessibility(hint: Text("run or pause animation to show what kind of move"))
                                     
                                         
                                         
