@@ -61,6 +61,8 @@ struct IndoorExercise7 : View {
                         .font(.title)
                         .foregroundColor(.white)
                     }
+                    .accessibility(label: Text("Close"))
+                    .accessibility(hint: Text("To close Lunge exercise"))
                 }
                 
                 VStack(spacing: 460){
@@ -75,6 +77,7 @@ struct IndoorExercise7 : View {
                             .font(.title)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
+                            .accessibility(label: Text("Lunge exercise"))
                     }
                         
                         HStack{
@@ -93,6 +96,8 @@ struct IndoorExercise7 : View {
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                                .accessibility(label: Text("Play exercise"))
+                                .accessibility(hint: Text("Start exercise with animation to show how to move"))
                             } else {
                                 
                                 VStack {
@@ -119,6 +124,8 @@ struct IndoorExercise7 : View {
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
                                         }
+                                        .accessibility(label: Text("Reset"))
+                                        .accessibility(hint: Text("To reset exercise time"))
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -137,12 +144,14 @@ struct IndoorExercise7 : View {
                                             
                                         }
                                         .accessibility(label: Text(self.isPlaying ? "Pause": "Play"))
-                                        .accessibility(hint: Text("run animation to show what kind of move"))
+                                        .accessibility(hint: Text("run or pause animation to show what kind of move"))
                                         
                                         Image(systemName: "info.circle")
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
+                                            .accessibility(label: Text("Info"))
+                                            .accessibility(hint: Text("Currently not availabel info for now"))
                                     }
                                 }
                                 
