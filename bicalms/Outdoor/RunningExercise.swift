@@ -123,7 +123,8 @@ struct RunningExercise : View {
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
-                                            .accessibility(label: Text("Repeat"))
+                                            .accessibility(label: Text("Reset"))
+                                            .accessibility(hint: Text("To reset exercise time"))
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -141,6 +142,7 @@ struct RunningExercise : View {
                                             }
                                         }
                                         .accessibility(label: Text(self.isPlaying ? "Pause": "Play"))
+                                        .accessibility(hint: Text("run or pause animation to show what kind of move"))
                                         
                                         Button(action: {
                                             self.showFinish.toggle()
