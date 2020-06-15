@@ -136,7 +136,7 @@ struct IndoorExercise2A : View {
                                             }
                                             
                                         }
-                                        .accessibility(label: Text(isPlaying ? "Play": "Pause"))
+                                        .accessibility(label: Text(isPlaying ? "Pause": "Play"))
                                         .accessibility(hint: Text("run animation to show what kind of move"))
                                         
                                         
