@@ -293,7 +293,7 @@ struct indoorAlertView5B : View {
                         .padding(.top, 8)
                     }
                     .accessibility(label: Text("Cancel"))
-                    .accessibility(hint: Text("To continue goofy jacks exercise"))
+                    .accessibility(hint: Text("To continue Curtsy Lunge"))
 
                 }
             }
