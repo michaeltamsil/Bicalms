@@ -65,6 +65,9 @@ struct CyclingExercise : View {
                         .font(.title)
                         .foregroundColor(.white)
                     }
+                    .accessibility(label: Text("Close"))
+                                       .accessibility(hint: Text("To close current exercise"))
+                    
                 }
                 
                 VStack(spacing: 460){
@@ -91,12 +94,15 @@ struct CyclingExercise : View {
                                         self.playOrPause()
                                     }
                                     
-                                }) {
+                                })
+                                {
                                     Image(systemName: "play.fill")
                                         .frame(width: 96)
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                 }
+                                .accessibility(label: Text("Play"))
+                                                           .accessibility(hint: Text("Show the example how to Cycling"))
                                 
                             } else {
                                 
@@ -119,6 +125,7 @@ struct CyclingExercise : View {
                                             .frame(width: 96)
                                             .font(.largeTitle)
                                             .foregroundColor(.white)
+                                         .accessibility(label: Text("repeat"))
                                         
                                         Button(action: {
                                             self.playOrPause()
@@ -135,6 +142,9 @@ struct CyclingExercise : View {
                                                     .foregroundColor(.white)
                                             }
                                         }
+                                          .accessibility(label: self.isPlaying ? Text("pause") : Text("play"))
+                                        
+                                        
                                         
                                         Button(action: {
                                             self.showFinish.toggle()
@@ -144,6 +154,9 @@ struct CyclingExercise : View {
                                                 .font(.largeTitle)
                                                 .foregroundColor(.white)
                                         }
+                                        .accessibility(label: Text("Stop"))
+                                                                            .accessibility(hint: Text("To stop current cycling exercise"))
+
                                     }
                                 }
                             }
